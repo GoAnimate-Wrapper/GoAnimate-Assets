@@ -579,6 +579,11 @@
 			<component type="nose" component_id="1009" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="mouth" component_id="1003" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="ear" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="3001" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoBehindBody" component_id="1001" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="3007" theme_id="business" gobucks="80" gopoints="0"/>
+			<library type="GoLower" component_id="3007" theme_id="business" gobucks="60" gopoints="0"/>
+			<library type="GoFeet" component_id="3015" theme_id="business" gobucks="10" gopoints="0"/>
 		</default_char>
 		<default_char xscale="0.7" yscale="0.7" hxscale="1.4" hyscale="1.4" headdx="0" headdy="0">
 			<tag>_sticky_filter_heavyguy</tag>
@@ -596,6 +601,11 @@
 			<component type="nose" component_id="1009" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="mouth" component_id="1003" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="ear" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="3001" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoBehindBody" component_id="1001" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="3001" theme_id="business" gobucks="80" gopoints="0"/>
+			<library type="GoLower" component_id="3001" theme_id="business" gobucks="60" gopoints="0"/>
+			<library type="GoFeet" component_id="3002" theme_id="business" gobucks="10" gopoints="0"/>
 		</default_char>
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
 			<action id="stand02" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -7223,6 +7233,11 @@
 			<component type="nose" component_id="1002" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="mouth" component_id="1002" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="ear" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="1001" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoBehindBody" component_id="1001" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="1007" theme_id="business" gobucks="80" gopoints="0"/>
+			<library type="GoLower" component_id="1007" theme_id="business" gobucks="60" gopoints="0"/>
+			<library type="GoFeet" component_id="1002" theme_id="business" gobucks="10" gopoints="0"/>
 		</default_char>
 		<default_char xscale="0.7" yscale="0.7" hxscale="1.4" hyscale="1.4" headdx="0" headdy="0">
 			<tag>_sticky_filter_guy</tag>
@@ -7240,6 +7255,11 @@
 			<component type="hair" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="50" gopoints="0"/>
 			<component type="eye" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
 			<component type="mouth" component_id="1001" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="1001" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="1001" theme_id="business" gobucks="80" gopoints="0"/>
+			<library type="GoLower" component_id="1001" theme_id="business" gobucks="60" gopoints="0"/>
+			<library type="GoFeet" component_id="1001" theme_id="business" gobucks="10" gopoints="0"/>
+			<library type="GoBehindBody" component_id="1001" theme_id="business" gobucks="0" gopoints="0"/>
 		</default_char>
 
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
@@ -14007,6 +14027,10 @@
 			<component type="eyebrow" component_id="2005" theme_id="business" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
 			<component type="mouth" component_id="1002" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="hair" component_id="1052" theme_id="business" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="1001" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="1045" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="1005" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="1038" theme_id="business" gobucks="0" gopoints="0"/>
 		</default_char>
 		<default_char xscale="0.7" yscale="0.7" hxscale="1.4" hyscale="1.4" headdx="0" headdy="0">
 			<tag>_sticky_filter_littleboy</tag>
@@ -14023,6 +14047,10 @@
 			<component type="hair" component_id="1042" theme_id="business" x="0" y="2" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="eye" component_id="1003" theme_id="business" x="0" y="4" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
 			<component type="mouth" component_id="1002" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="1001" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="1005" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="1084" theme_id="business" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="1044" theme_id="business" gobucks="0" gopoints="0"/>
 		</default_char>
 
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">

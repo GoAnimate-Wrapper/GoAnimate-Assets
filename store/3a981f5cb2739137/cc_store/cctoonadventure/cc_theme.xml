@@ -1,4 +1,4 @@
-<cc_theme id="cctoonadventure" name="Toon Adventure" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<cc_theme id="cctoonadventure" studio_theme_id="toonadv" name="Toon Adventure" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <color r="ccSkinColor" oc="0xFFDDBB" component_type="bodyshape" enable="Y">
         <choice>0xFCDFC2</choice>
         <choice>0xF5D1BF</choice>
@@ -582,7 +582,7 @@
             <state id="walk" filename="walk.swf"/>
         </component>
     </bodyshape>
-    <component type="ear" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" random_able="N">
+    <component type="ear" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="N" random_able="N">
         <state id="default" filename="default.swf"/>
     </component>
     <component type="ear" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -597,7 +597,7 @@
     <component type="ear" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="eye" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" random_able="N">
+    <component type="eye" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="N" random_able="N">
         <state id="angry" filename="angry.swf"/>
         <state id="closed_eye" filename="closed_eye.swf"/>
         <state id="cry" filename="cry.swf"/>
@@ -788,7 +788,7 @@
     <component type="facedecoration" id="030" path="030" name="030" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="faceshape" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" random_able="N">
+    <component type="faceshape" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="N" random_able="N">
         <state id="default" filename="default.swf"/>
     </component>
     <component type="faceshape" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -992,7 +992,7 @@
     <component type="hair" id="048" path="048" name="048" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="mouth" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" random_able="N">
+    <component type="mouth" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="N" random_able="N">
         <state id="angry" filename="angry.swf"/>
         <state id="cry" filename="cry.swf"/>
         <state id="default" filename="default.swf"/>

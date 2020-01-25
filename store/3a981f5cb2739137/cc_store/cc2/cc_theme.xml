@@ -620,6 +620,9 @@
 		<component type="mouth" component_id="008" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="eye" component_id="003" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="faceshape" component_id="007" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<library type="GoHands" component_id="001" theme_id="cc2" gobucks="0" gopoints="0"/>
+		<library type="GoLower" component_id="001" theme_id="cc2" gobucks="10" gopoints="0"/>
+		<library type="GoUpper" component_id="221" theme_id="cc2" gobucks="40" gopoints="0"/>
         </default_char>
 
         <actionpack id="gun" name="Hand Gun Pack" money="0" sharing="0" enable="Y">

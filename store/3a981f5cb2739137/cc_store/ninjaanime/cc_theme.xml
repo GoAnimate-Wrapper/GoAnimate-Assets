@@ -476,6 +476,11 @@
 			<component type="nose" component_id="002" theme_id="ninjaanime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="faceshape" component_id="003" theme_id="ninjaanime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="eyebrow" component_id="002" theme_id="ninjaanime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="001" theme_id="ninjaanime" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="501" theme_id="ninjaanime" gobucks="75" gopoints="0"/>
+			<library type="GoUpper" component_id="501" theme_id="ninjaanime" gobucks="150" gopoints="0"/>
+			<library type="GoHair" component_id="501" theme_id="ninjaanime" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="501" theme_id="ninjaanime" gobucks="0" gopoints="0"/>
 		</default_char>
 <actionpack id="ninja" name="Ninja" money="0" sharing="0" enable="Y">
             <action id="guy_nja_run01" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
@@ -1326,6 +1331,11 @@
 			<component type="mouth" component_id="001" theme_id="ninjaanime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="hair" component_id="501" theme_id="ninjaanime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="75" gopoints="0"/>
 			<component type="eye" component_id="001" theme_id="ninjaanime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="001" theme_id="ninjaanime" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="511" theme_id="ninjaanime" gobucks="150" gopoints="0"/>
+			<library type="GoLower" component_id="505" theme_id="ninjaanime" gobucks="75" gopoints="0"/>
+			<library type="GoFeet" component_id="500" theme_id="ninjaanime" gobucks="0" gopoints="0"/>
+			<library type="GoHair" component_id="501" theme_id="ninjaanime" gobucks="0" gopoints="0"/>
 		</default_char>
 <actionpack id="ninja" name="Ninja" money="0" sharing="0" enable="Y">
             <action id="nja_run01" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
@@ -2951,21 +2961,21 @@
 		<state id="side_default" filename="side_default.swf"/>
 	</component>
 <template id="F500">
-		<library type="GoFeet" path="500" thumb="thumbnail.swf" theme_id="ninjaanime"/>
+		<library type="GoFeet" component_id="500" theme_id="ninjaanime"/>
 	</template>
 <template id="F501">
-		<library type="GoFeet" path="501" thumb="thumbnail.swf" theme_id="ninjaanime"/>
+		<library type="GoFeet" component_id="501" theme_id="ninjaanime"/>
 	</template>
 <template id="F510">
-		<library type="GoFeet" path="510" thumb="thumbnail.swf" theme_id="ninjaanime"/>
+		<library type="GoFeet" component_id="510" theme_id="ninjaanime"/>
 	</template>
 <template id="F511">
-		<library type="GoFeet" path="511" thumb="thumbnail.swf" theme_id="ninjaanime"/>
+		<library type="GoFeet" component_id="511" theme_id="ninjaanime"/>
 	</template>
 <template id="F512">
-		<library type="GoFeet" path="512" thumb="thumbnail.swf" theme_id="ninjaanime"/>
+		<library type="GoFeet" component_id="512" theme_id="ninjaanime"/>
 	</template>
 <template id="F513">
-		<library type="GoFeet" path="513" thumb="thumbnail.swf" theme_id="ninjaanime"/>
+		<library type="GoFeet" component_id="513" theme_id="ninjaanime"/>
 	</template>
 </cc_theme>

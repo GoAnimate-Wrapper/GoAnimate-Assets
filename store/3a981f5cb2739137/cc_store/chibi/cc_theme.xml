@@ -801,6 +801,9 @@
             <component type="eye" component_id="6006" theme_id="chibi" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="20" gopoints="0"/>
             <component type="mouth" component_id="6004" theme_id="chibi" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="20" gopoints="0"/>
             <component type="eyebrow" component_id="6001" theme_id="chibi" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+            <library type="GoHands" component_id="6003" theme_id="chibi" gobucks="0" gopoints="0"/>
+            <library type="GoUpper" component_id="6018" theme_id="chibi" gobucks="0" gopoints="0"/>
+            <library type="GoLower" component_id="6006" theme_id="chibi" gobucks="0" gopoints="0"/>
         </default_char>
 
         <actionpack id="gun" name="Hand Gun Pack" money="0" sharing="0" enable="Y">

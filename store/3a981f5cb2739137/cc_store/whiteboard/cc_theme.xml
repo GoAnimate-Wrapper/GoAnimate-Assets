@@ -379,6 +379,10 @@
 			<component type="eyebrow" component_id="1002" theme_id="whiteboard" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
 			<component type="nose" component_id="1002" theme_id="whiteboard" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="hair" component_id="1002" theme_id="whiteboard" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="1001" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="1001" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="1002" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="1001" theme_id="whiteboard" gobucks="0" gopoints="0"/>
 		</default_char>
 		<default_char xscale="0.7" yscale="0.7" hxscale="1" hyscale="1" headdx="0" headdy="0">
 			<tag>_sticky_filter_guy</tag>
@@ -396,6 +400,10 @@
 			<component type="mouth" component_id="1001" theme_id="whiteboard" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="eyebrow" component_id="1003" theme_id="whiteboard" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
 			<component type="hair" component_id="1001" theme_id="whiteboard" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="1001" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="1003" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="1002" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="1002" theme_id="whiteboard" gobucks="0" gopoints="0"/>
 		</default_char>
 
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
@@ -6301,6 +6309,10 @@
 			<component type="nose" component_id="1002" theme_id="whiteboard" x="0" y="1" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="eyebrow" component_id="1002" theme_id="whiteboard" x="0" y="1" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
 			<component type="faceshape" component_id="1002" theme_id="whiteboard" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="1001" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="1002" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="1016" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="1001" theme_id="whiteboard" gobucks="0" gopoints="0"/>
 		</default_char>
 		<default_char xscale="0.7" yscale="0.7" hxscale="1" hyscale="1" headdx="0" headdy="0">
 			<tag>_sticky_filter_littleboy</tag>
@@ -6318,6 +6330,10 @@
 			<component type="faceshape" component_id="1004" theme_id="whiteboard" x="0" y="-1" xscale="1" yscale="0.95" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
 			<component type="hair" component_id="1003" theme_id="whiteboard" x="0" y="3" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="mouth" component_id="1001" theme_id="whiteboard" x="0" y="-1" xscale="0.79" yscale="0.63" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="1001" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="1001" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="1002" theme_id="whiteboard" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="1007" theme_id="whiteboard" gobucks="0" gopoints="0"/>
 		</default_char>
 
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
@@ -9417,6 +9433,7 @@
 		<tag>_sticky_filter_guy</tag>
 	</component>
 
+	<!--
 	<component type="facedecoration" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="side_default" filename="side_default.swf"/>
@@ -9430,4 +9447,5 @@
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
+	-->
 </cc_theme>

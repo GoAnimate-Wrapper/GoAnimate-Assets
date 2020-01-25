@@ -411,6 +411,11 @@
 			<component type="nose" component_id="001" theme_id="spacecitizen" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="faceshape" component_id="001" theme_id="spacecitizen" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="eyebrow" component_id="001" theme_id="spacecitizen" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="001" theme_id="spacecitizen" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="001" theme_id="spacecitizen" gobucks="75" gopoints="0"/>
+			<library type="GoUpper" component_id="004" theme_id="spacecitizen" gobucks="150" gopoints="0"/>
+			<library type="GoHair" component_id="001" theme_id="spacecitizen" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="001" theme_id="spacecitizen" gobucks="0" gopoints="0"/>
 		</default_char>
 
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
@@ -846,6 +851,11 @@
 			<component type="nose" component_id="001" theme_id="spacecitizen" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="faceshape" component_id="001" theme_id="spacecitizen" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="eyebrow" component_id="001" theme_id="spacecitizen" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="001" theme_id="spacecitizen" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="001" theme_id="spacecitizen" gobucks="75" gopoints="0"/>
+			<library type="GoUpper" component_id="001" theme_id="spacecitizen" gobucks="150" gopoints="0"/>
+			<library type="GoHair" component_id="001" theme_id="spacecitizen" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="001" theme_id="spacecitizen" gobucks="0" gopoints="0"/>
 		</default_char>
 
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
@@ -1284,6 +1294,11 @@
 			<component type="nose" component_id="001" theme_id="spacecitizen" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="faceshape" component_id="001" theme_id="spacecitizen" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="eyebrow" component_id="001" theme_id="spacecitizen" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="001" theme_id="spacecitizen" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="001" theme_id="spacecitizen" gobucks="75" gopoints="0"/>
+			<library type="GoUpper" component_id="001" theme_id="spacecitizen" gobucks="150" gopoints="0"/>
+			<library type="GoHair" component_id="001" theme_id="spacecitizen" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="001" theme_id="spacecitizen" gobucks="0" gopoints="0"/>
 		</default_char>
 
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
