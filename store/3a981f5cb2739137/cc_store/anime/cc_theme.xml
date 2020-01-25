@@ -476,6 +476,11 @@
 			<component type="nose" component_id="003" theme_id="anime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="faceshape" component_id="003" theme_id="anime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="eyebrow" component_id="002" theme_id="anime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="001" theme_id="anime" gobucks="0" gopoints="0"/>
+			<library type="GoLower" component_id="005" theme_id="anime" gobucks="75" gopoints="0"/>
+			<library type="GoUpper" component_id="005" theme_id="anime" gobucks="150" gopoints="0"/>
+			<library type="GoHair" component_id="009" theme_id="anime" gobucks="0" gopoints="0"/>
+			<library type="GoFeet" component_id="005" theme_id="anime" gobucks="0" gopoints="0"/>
 		</default_char>
 
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
@@ -1378,6 +1383,11 @@
 			<component type="mouth" component_id="001" theme_id="anime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="hair" component_id="002" theme_id="anime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="75" gopoints="0"/>
 			<component type="eye" component_id="001" theme_id="anime" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<library type="GoHands" component_id="001" theme_id="anime" gobucks="0" gopoints="0"/>
+			<library type="GoUpper" component_id="001" theme_id="anime" gobucks="150" gopoints="0"/>
+			<library type="GoLower" component_id="001" theme_id="anime" gobucks="75" gopoints="0"/>
+			<library type="GoFeet" component_id="001" theme_id="anime" gobucks="0" gopoints="0"/>
+			<library type="GoHair" component_id="002" theme_id="anime" gobucks="0" gopoints="0"/>
 		</default_char>
 
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
@@ -3081,67 +3091,67 @@
 	</component>
 
 	<template id="F001">
-		<library type="GoFeet" path="001" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="001" theme_id="anime" />
 	</template>
 	<template id="F002">
-		<library type="GoFeet" path="002" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="002" theme_id="anime" />
 	</template>
 	<template id="F003">
-		<library type="GoFeet" path="003" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="003" theme_id="anime" />
 	</template>
 	<template id="F004">
-		<library type="GoFeet" path="004" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="004" theme_id="anime" />
 	</template>
 	<template id="F005">
-		<library type="GoFeet" path="005" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="005" theme_id="anime" />
 	</template>
 	<template id="F006">
-		<library type="GoFeet" path="006" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="006" theme_id="anime" />
 	</template>
 	<template id="F007">
-		<library type="GoFeet" path="007" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="007" theme_id="anime" />
 	</template>
 	<template id="F008">
-		<library type="GoFeet" path="008" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="008" theme_id="anime" />
 	</template>
 	<template id="F009">
-		<library type="GoFeet" path="009" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="009" theme_id="anime" />
 	</template>
 	<template id="F010">
-		<library type="GoFeet" path="010" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="010" theme_id="anime" />
 	</template>
 	<template id="F011">
-		<library type="GoFeet" path="011" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="011" theme_id="anime" />
 	</template>
 	<template id="F012">
-		<library type="GoFeet" path="012" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="012" theme_id="anime" />
 	</template>
 	<template id="F013">
-		<library type="GoFeet" path="013" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="013" theme_id="anime" />
 	</template>
 	<template id="F014">
-		<library type="GoFeet" path="014" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="014" theme_id="anime" />
 	</template>
 	<template id="F015">
-		<library type="GoFeet" path="015" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="015" theme_id="anime" />
 	</template>
 	<template id="F016">
-		<library type="GoFeet" path="016" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="016" theme_id="anime" />
 	</template>
 	<template id="F017">
-		<library type="GoFeet" path="017" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="017" theme_id="anime" />
 	</template>
 	<template id="F018">
-		<library type="GoFeet" path="018" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="018" theme_id="anime" />
 	</template>
 	<template id="F019">
-		<library type="GoFeet" path="019" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="019" theme_id="anime" />
 	</template>
 	<template id="F020">
-		<library type="GoFeet" path="020" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="020" theme_id="anime" />
 	</template>
 	<template id="F021">
-		<library type="GoFeet" path="021" thumb="thumbnail.swf" theme_id="anime" />
+		<library type="GoFeet" component_id="021" theme_id="anime" />
 	</template>
 
 </cc_theme>

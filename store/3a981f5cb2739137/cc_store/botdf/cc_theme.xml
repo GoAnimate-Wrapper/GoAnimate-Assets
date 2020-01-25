@@ -611,6 +611,9 @@
 		<component type="mouth" component_id="008" theme_id="botdf" x="-2" y="-3" xscale="0.83" yscale="0.79" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="eye" component_id="003" theme_id="botdf" x="0" y="-1" xscale="0.92" yscale="0.76" offset="-3" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="faceshape" component_id="007" theme_id="botdf" x="-1" y="0" xscale="0.92" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<library type="GoHands" component_id="001" theme_id="botdf" gobucks="0" gopoints="0"/>
+		<library type="GoLower" component_id="001" theme_id="botdf" gobucks="10" gopoints="0"/>
+		<library type="GoUpper" component_id="221" theme_id="botdf" gobucks="40" gopoints="0"/>
         </default_char>
 <actionpack id="gun" name="Hand Gun Pack" money="50" sharing="0" enable="Y" is_premium="Y" is_plus="Y">
             <action id="gun_down01_fire" name="3" loop="Y" totalframe="1" enable="Y" is_motion="N" group="Lying down (x3)" category="Hand Gun">
