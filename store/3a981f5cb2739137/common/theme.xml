@@ -121,11 +121,11 @@
   <background id="twilight.swf" name="twilight" enable="N" is_premium="N" aid="4741" money="0" sharing="0"/>
   <background id="world_map.swf" name="World Map" enable="N" is_premium="N" aid="4768" money="0" sharing="0"/>
   <background id="ncc_floor.swf" name="Floor" enable="Y" default="N" is_premium="N" aid="10673" money="0" sharing="0"/>
-  <background id="ncc_gradient.swf" name="Gradient" enable="Y" is_premium="N" aid="10674" money="0" sharing="0"/>
-  <background id="ncc_high.swf" name="High Horizon" enable="Y" is_premium="N" aid="10675" money="0" sharing="0"/>
+  <background id="ncc_gradient.swf" name="Gradient" enable="Y" default="N" is_premium="N" aid="10674" money="0" sharing="0"/>
+  <background id="ncc_high.swf" name="High Horizon" enable="Y" default="N" is_premium="N" aid="10675" money="0" sharing="0"/>
   <background id="ncc_interior_left.swf" name="Interior left" enable="Y" default="N" is_premium="N" aid="10676" money="0" sharing="0"/>
   <background id="ncc_interior_right.swf" name="Interior right" enable="Y" default="N" is_premium="N" aid="10677" money="0" sharing="0"/>
-  <background id="ncc_low.swf" name="Low Horizon" enable="Y" is_premium="N" aid="10678" money="0" sharing="0"/>
+  <background id="ncc_low.swf" name="Low Horizon" enable="Y" default="N" is_premium="N" aid="10678" money="0" sharing="0"/>
   <background id="ncc_medium.swf" name="Medium Horizon" enable="Y" default="N" is_premium="N" aid="10679" money="0" sharing="0"/>
   <background id="ncc_interior_left02.swf" name="Interior left" enable="Y" default="N" is_premium="N" aid="10680" money="0" sharing="0"/>
   <background id="ncc_interior_right02.swf" name="Interior right" enable="Y" default="N" is_premium="N" aid="10681" money="0" sharing="0"/>
@@ -192,7 +192,7 @@
   <background id="ncc_fx_03.swf" name="Bad smell" enable="Y" default="N" is_premium="Y" aid="12357" money="0" sharing="0"/>
   <background id="ncc_fx_04.swf" name="Fire" enable="Y" default="N" is_premium="Y" aid="12358" money="0" sharing="0"/>
   <background id="ncc_fx_05.swf" name="In love" enable="Y" default="N" is_premium="Y" aid="12359" money="0" sharing="0"/>
-  <background id="ncc_weird.swf" name="Haunted" enable="Y" is_premium="Y" aid="12360" money="0" sharing="0"/>
+  <background id="ncc_weird.swf" name="Haunted" enable="Y" default="N" is_premium="Y" aid="12360" money="0" sharing="0"/>
   <background id="ncc_shock.swf" name="Shock" enable="Y" default="N" is_premium="Y" aid="12361" money="0" sharing="0"/>
   <background id="ncc_anger.swf" name="Explosion" enable="Y" default="N" is_premium="Y" aid="12362" money="0" sharing="0"/>
   <background id="ncc_anger2.swf" name="Explosion" enable="Y" default="N" is_premium="Y" aid="12363" money="0" sharing="0"/>
