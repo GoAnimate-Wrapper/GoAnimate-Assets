@@ -121,8 +121,8 @@
   <background id="twilight.swf" name="twilight" enable="N" is_premium="N" aid="4741" money="0" sharing="0"/>
   <background id="world_map.swf" name="World Map" enable="N" is_premium="N" aid="4768" money="0" sharing="0"/>
   <background id="ncc_floor.swf" name="Floor" enable="Y" default="N" is_premium="N" aid="10673" money="0" sharing="0"/>
-  <background id="ncc_gradient.swf" name="Gradient" enable="Y" default="N" is_premium="N" aid="10674" money="0" sharing="0"/>
-  <background id="ncc_high.swf" name="High Horizon" enable="Y" is_premium="N" aid="10675" money="0" sharing="0"/>
+  <background id="ncc_gradient.swf" name="Gradient" enable="N" default="N" is_premium="N" aid="10674" money="0" sharing="0"/>
+  <background id="ncc_high.swf" name="High Horizon" enable="N" is_premium="N" aid="10675" money="0" sharing="0"/>
   <background id="ncc_interior_left.swf" name="Interior left" enable="Y" default="N" is_premium="N" aid="10676" money="0" sharing="0"/>
   <background id="ncc_interior_right.swf" name="Interior right" enable="Y" default="N" is_premium="N" aid="10677" money="0" sharing="0"/>
   <background id="ncc_low.swf" name="Low Horizon" enable="Y" default="N" is_premium="N" aid="10678" money="0" sharing="0"/>
