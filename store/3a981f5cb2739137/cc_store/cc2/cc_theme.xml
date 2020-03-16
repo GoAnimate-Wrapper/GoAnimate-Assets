@@ -612,14 +612,14 @@
 		<color r="ccLowerMain">0x2D2928</color>
 		<color r="ccHairMajor">0x7E4D1B</color>
 		<component type="bodyshape" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="freeaction" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="hair" component_id="1001" theme_id="cc2" x="0.9" y="0.78" xscale="1" yscale="1" offset="0" rotation="8" gobucks="0" gopoints="0"/>
-		<component type="nose" component_id="1001" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="mouth" component_id="1001" theme_id="cc2" x="1.02" y="0.6" xscale="1" yscale="1" offset="0" rotation="4" gobucks="0" gopoints="0"/>
-		<component type="eye" component_id="1001" theme_id="cc2" x="0.9" y="0.88" xscale="1" yscale="1" offset="33" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="freeaction" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/
+		<component type="hair" component_id="1001" theme_id="cc2" x="0" y="-19" xscale="0.9" yscale="0.78" offset="0" rotation="8" gobucks="0" gopoints="0"/>
+		<component type="nose" component_id="1002" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="mouth" component_id="1001" theme_id="cc2" x="-6" y="-5" xscale="1.02" yscale="0.6" offset="0" rotation="4" gobucks="0" gopoints="0"/>
+		<component type="eye" component_id="1001" theme_id="cc2" x="2" y="0" xscale="0.9" yscale="0.88" offset="33" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="faceshape" component_id="1001" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<library type="GoHands" component_id="1001" theme_id="cc2" gobucks="0" gopoints="0"/>
-		<library type="GoLower" component_id="1001" theme_id="cc2" gobucks="10" gopoints="0"/>
+		<library type="GoLower" component_id="1001" theme_id="cc2" gobucks="0" gopoints="0"/>
 		<library type="GoUpper" component_id="1001" theme_id="cc2" gobucks="40" gopoints="0"/>
         </default_char>
 
@@ -2325,8 +2325,7 @@
 		
 <!-- BODY OUTFITS START HERE -->
 
-                <library type="GoUpper" id="000" path="000" name="000" thumb="000_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+		<library type="GoUpper" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="1002" path="1002" name="1002" thumb="1002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="1003" path="1003" name="1003" thumb="1003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="1004" path="1004" name="1004" thumb="1004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -2753,8 +2752,7 @@
 
 
 <!-- HANDS START HERE -->
-	        <library type="GoHands" id="000" path="000" name="000" thumb="000_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-	<library type="GoHands" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+		<library type="GoHands" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoHands" id="2001" path="2001" name="2001" thumb="2001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoHands" id="2002" path="2002" name="2002" thumb="2002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoHands" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -4936,28 +4934,7 @@
 
 	
 <!-- MOUTHS START HERE -->
-	
-    <component type="mouth" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="angry" filename="angry.swf"/>
-        <state id="confused" filename="confused.swf"/>
-        <state id="cry" filename="cry.swf"/>
-        <state id="default" filename="default.swf"/>
-        <state id="desperate" filename="desperate.swf"/>
-        <state id="happy" filename="happy.swf"/>
-        <state id="laugh" filename="laugh.swf"/>
-        <state id="sad" filename="sad.swf"/>
-        <state id="shock" filename="shock.swf"/>
-        <state id="sick" filename="sick.swf"/>
-        <state id="surprised" filename="surprised.swf"/>
-        <state id="talk" filename="talk.swf"/>
-        <state id="talk_angry" filename="talk_angry.swf"/>
-        <state id="talk_happy" filename="talk_happy.swf"/>
-        <state id="talk_sad" filename="talk_sad.swf"/>
-		<state id="get_hit" filename="get_hit.swf"/>
-		<state id="happy02" filename="happy02.swf"/>
-		<state id="stand02" filename="stand02.swf"/>
-		<state id="run03" filename="run03.swf"/>
-    </component>
+
     <component type="mouth" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
         <state id="confused" filename="confused.swf"/>
@@ -5656,9 +5633,6 @@
 	
 <!-- NOSES START HERE -->
 
-    <component type="nose" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="default" filename="default.swf"/>
-    </component>
     <component type="nose" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
