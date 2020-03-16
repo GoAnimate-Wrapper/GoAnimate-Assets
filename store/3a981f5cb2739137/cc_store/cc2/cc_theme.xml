@@ -614,7 +614,7 @@
 		<component type="bodyshape" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="freeaction" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/
 		<component type="hair" component_id="1001" theme_id="cc2" x="0" y="-19" xscale="0.9" yscale="0.78" offset="0" rotation="8" gobucks="0" gopoints="0"/>
-		<component type="nose" component_id="1002" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="nose" component_id="1001" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="mouth" component_id="1001" theme_id="cc2" x="-6" y="-5" xscale="1.02" yscale="0.6" offset="0" rotation="4" gobucks="0" gopoints="0"/>
 		<component type="eye" component_id="1001" theme_id="cc2" x="2" y="0" xscale="0.9" yscale="0.88" offset="33" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="faceshape" component_id="1001" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
