@@ -600,7 +600,7 @@
 
     <bodyshape id="default" name="Default" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y">
         <default_char>
-		<color r="ccSkinColor">0xE2C294</color>
+		<color r="ccSkinColor">0xCCCCCC</color>
 		<color r="ccEyeLib">0xBD8764</color>
 		<color r="ccEyeIris">0x003333</color>
 		<color r="ccGlassesFrame">0xBE10B0</color>
@@ -612,17 +612,15 @@
 		<color r="ccLowerMain">0x2D2928</color>
 		<color r="ccHairMajor">0x7E4D1B</color>
 		<component type="bodyshape" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="freeaction" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="eyebrow" component_id="002" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="ear" component_id="003" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="hair" component_id="058" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="nose" component_id="007" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="mouth" component_id="008" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="eye" component_id="003" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="faceshape" component_id="007" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<library type="GoHands" component_id="001" theme_id="cc2" gobucks="0" gopoints="0"/>
-		<library type="GoLower" component_id="001" theme_id="cc2" gobucks="10" gopoints="0"/>
-		<library type="GoUpper" component_id="221" theme_id="cc2" gobucks="40" gopoints="0"/>
+		<component type="freeaction" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/
+		<component type="hair" component_id="1001" theme_id="cc2" x="0" y="-19" xscale="0.9" yscale="0.78" offset="0" rotation="8" gobucks="0" gopoints="0"/>
+		<component type="nose" component_id="1001" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="mouth" component_id="1001" theme_id="cc2" x="-6" y="-5" xscale="1.02" yscale="0.6" offset="0" rotation="4" gobucks="0" gopoints="0"/>
+		<component type="eye" component_id="1001" theme_id="cc2" x="2" y="0" xscale="0.9" yscale="0.88" offset="33" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="faceshape" component_id="1001" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<library type="GoHands" component_id="1001" theme_id="cc2" gobucks="0" gopoints="0"/>
+		<library type="GoLower" component_id="1001" theme_id="cc2" gobucks="0" gopoints="0"/>
+		<library type="GoUpper" component_id="1001" theme_id="cc2" gobucks="40" gopoints="0"/>
         </default_char>
 
         <actionpack id="gun" name="Hand Gun Pack" money="0" sharing="0" enable="Y">
