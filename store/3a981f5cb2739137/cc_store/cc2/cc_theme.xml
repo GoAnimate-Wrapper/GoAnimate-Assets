@@ -600,7 +600,7 @@
 
     <bodyshape id="default" name="Default" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y">
         <default_char>
-		<color r="ccSkinColor">0xA6A9DD</color>
+		<color r="ccSkinColor">0xCCCCCC</color>
 		<color r="ccEyeLib">0xBD8764</color>
 		<color r="ccEyeIris">0x003333</color>
 		<color r="ccGlassesFrame">0xBE10B0</color>
@@ -614,7 +614,7 @@
 		<component type="bodyshape" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="freeaction" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="hair" component_id="1001" theme_id="cc2" x="0" y="-19" xscale="0.9" yscale="0.78" offset="0" rotation="8" gobucks="0" gopoints="0"/>
-		<component type="nose" component_id="1003" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="nose" component_id="1001" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="mouth" component_id="1001" theme_id="cc2" x="-6" y="-5" xscale="1.02" yscale="0.6" offset="0" rotation="4" gobucks="0" gopoints="0"/>
 		<component type="eye" component_id="1001" theme_id="cc2" x="2" y="0" xscale="0.9" yscale="0.88" offset="33" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="faceshape" component_id="1001" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
