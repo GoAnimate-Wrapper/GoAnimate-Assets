@@ -600,7 +600,7 @@
 
     <bodyshape id="default" name="Default" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y">
         <default_char>
-		<color r="ccSkinColor">0xCCCCCC</color>
+		<color r="ccSkinColor">0xE2C294</color>
 		<color r="ccEyeLib">0xBD8764</color>
 		<color r="ccEyeIris">0x003333</color>
 		<color r="ccGlassesFrame">0xBE10B0</color>
@@ -612,15 +612,17 @@
 		<color r="ccLowerMain">0x2D2928</color>
 		<color r="ccHairMajor">0x7E4D1B</color>
 		<component type="bodyshape" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="freeaction" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/
-		<component type="hair" component_id="1001" theme_id="cc2" x="0" y="-19" xscale="0.9" yscale="0.78" offset="0" rotation="8" gobucks="0" gopoints="0"/>
-		<component type="nose" component_id="1002" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="mouth" component_id="1001" theme_id="cc2" x="-6" y="-5" xscale="1.02" yscale="0.6" offset="0" rotation="4" gobucks="0" gopoints="0"/>
-		<component type="eye" component_id="1001" theme_id="cc2" x="2" y="0" xscale="0.9" yscale="0.88" offset="33" rotation="0" gobucks="0" gopoints="0"/>
-		<component type="faceshape" component_id="1001" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-		<library type="GoHands" component_id="1001" theme_id="cc2" gobucks="0" gopoints="0"/>
-		<library type="GoLower" component_id="1001" theme_id="cc2" gobucks="0" gopoints="0"/>
-		<library type="GoUpper" component_id="1001" theme_id="cc2" gobucks="40" gopoints="0"/>
+		<component type="freeaction" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="eyebrow" component_id="002" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="ear" component_id="003" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="hair" component_id="058" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="nose" component_id="007" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="mouth" component_id="008" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="eye" component_id="003" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="faceshape" component_id="007" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<library type="GoHands" component_id="001" theme_id="cc2" gobucks="0" gopoints="0"/>
+		<library type="GoLower" component_id="001" theme_id="cc2" gobucks="10" gopoints="0"/>
+		<library type="GoUpper" component_id="221" theme_id="cc2" gobucks="40" gopoints="0"/>
         </default_char>
 
         <actionpack id="gun" name="Hand Gun Pack" money="0" sharing="0" enable="Y">
@@ -716,11 +718,11 @@
                 <selection type="facial" facial_id="head_neutral"/>
 				<prop id="msp_ncc_gun_deb.msp_ncc_gun_deb_ncc_gun_still.swf" theme="common" aid="11648" />
             </action>
-            <action id="gun_crazy02b_fire" name="Mad shooting" loop="Y" totalframe="20" enable="Y" is_motion="N" category="Hand Gun">
+            <action id="gun_crazy02b_fire" name="Mad shooting" loop="Y" totalframe="20" enable="N" is_motion="N" category="Hand Gun">
                 <selection type="facial" facial_id="head_angry"/>
 				<prop id="msp_ncc_gun_deb.msp_ncc_gun_deb_ncc_gun_loop.swf" theme="common" aid="11646" />
             </action>
-            <action id="gun_crazy03_fire" name="Mad shooting" loop="Y" totalframe="20" enable="Y" is_motion="N" category="Hand Gun">
+            <action id="gun_crazy03_fire" name="Mad shooting" loop="Y" totalframe="20" enable="N" is_motion="N" category="Hand Gun">
                 <selection type="facial" facial_id="head_angry"/>
 				<prop id="msp_ncc_gun_deb.msp_ncc_gun_deb_ncc_gun_loop.swf" theme="common" aid="11646" />
             </action>
@@ -744,7 +746,7 @@
                 <selection type="facial" facial_id="head_angry"/>
 				<prop id="msp_ncc_gun_deb.msp_ncc_gun_deb_ncc_gun_still.swf" theme="common" aid="11648" />
             </action>
-            <action id="gun_crazy01_fire" name="Mad shooting" loop="Y" totalframe="80" enable="Y" is_motion="N" category="Hand Gun">
+            <action id="gun_crazy01_fire" name="Mad shooting" loop="Y" totalframe="80" enable="N" is_motion="N" category="Hand Gun">
                 <selection type="facial" facial_id="head_angry"/>
 				<prop id="msp_ncc_gun_deb.msp_ncc_gun_deb_ncc_gun_loop.swf" theme="common" aid="11646" />
             </action>
@@ -1790,7 +1792,7 @@
             <action id="ro_kiss02" name="Kiss" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_dream"/>
             </action>
-            <action id="ro_kiss04" name="Kiss" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Daily life">
+            <action id="ro_kiss04" name="Kiss" loop="Y" totalframe="1" enable="N" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_dream"/>
             </action>
             <action id="ro_kiss05d" name="Kiss" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Daily life">
@@ -1851,22 +1853,22 @@
             <action id="rof_blow_kiss" name="Blow kiss" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_dream"/>
             </action>
-            <action id="rof_broken_love" name="Heart broken" loop="Y" totalframe="80" enable="Y" is_motion="N" category="Emotions">
+            <action id="rof_broken_love" name="Heart broken" loop="Y" totalframe="80" enable="N" is_motion="N" category="Emotions">
                 <selection type="facial" facial_id="head_ghost"/>
             </action>
-            <action id="rof_broken_love02" name="Heart broken" loop="Y" totalframe="80" enable="Y" is_motion="N" category="Emotions">
+            <action id="rof_broken_love02" name="Heart broken" loop="Y" totalframe="80" enable="N" is_motion="N" category="Emotions">
                 <selection type="facial" facial_id="head_ghost"/>
             </action>
             <action id="rof_broken_love03" name="Heart broken" loop="Y" totalframe="40" enable="Y" is_motion="N" category="Emotions">
                 <selection type="facial" facial_id="head_petrified"/>
             </action>
-            <action id="rof_first_love" name="Love at first sight" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Emotions">
+            <action id="rof_first_love" name="Love at first sight" loop="Y" totalframe="50" enable="N" is_motion="N" category="Emotions">
                 <selection type="facial" facial_id="head_inlove"/>
             </action>
-            <action id="rof_first_love02" name="Love at first sight" loop="Y" totalframe="40" enable="Y" is_motion="N" category="Emotions">
+            <action id="rof_first_love02" name="Love at first sight" loop="Y" totalframe="40" enable="N" is_motion="N" category="Emotions">
                 <selection type="facial" facial_id="head_inlove"/>
             </action>
-            <action id="rof_get_gift01" name="Take gift" loop="Y" totalframe="20" enable="Y" is_motion="N" category="Daily life">
+            <action id="rof_get_gift01" name="Take gift" loop="Y" totalframe="20" enable="N" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_happy"/>
             </action>
             <action id="rof_heart_beating" name="In love" loop="Y" totalframe="23" enable="Y" is_motion="N" category="Emotions">
@@ -1875,39 +1877,39 @@
             <action id="rof_hit01" name="Slap" loop="Y" totalframe="32" enable="Y" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_angry"/>
             </action>
-            <action id="rof_hug01" name="Hug" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Daily life">
+            <action id="rof_hug01" name="Hug" loop="Y" totalframe="1" enable="N" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_dream"/>
             </action>
             <action id="rof_kiss01" name="Kiss" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_dream"/>
             </action>
-            <action id="rof_kiss02" name="Kiss" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Daily life">
+            <action id="rof_kiss02" name="Kiss" loop="Y" totalframe="1" enable="N" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_dream"/>
             </action>
-            <action id="rof_kiss04" name="Kiss" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Daily life">
+            <action id="rof_kiss04" name="Kiss" loop="Y" totalframe="1" enable="N" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_dream"/>
             </action>
-            <action id="rof_kiss05" name="Kiss" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Daily life">
+            <action id="rof_kiss05" name="Kiss" loop="Y" totalframe="50" enable="N" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_dream"/>
             </action>
             <action id="rof_kiss05b" name="Blow kiss" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_dream"/>
             </action>
-            <action id="rof_kiss06" name="Kiss" loop="Y" totalframe="25" enable="Y" is_motion="N" category="Daily life">
+            <action id="rof_kiss06" name="Kiss" loop="Y" totalframe="25" enable="N" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_happy"/>
             </action>
-            <action id="rof_offer_gift01" name="Give gift" loop="Y" totalframe="20" enable="Y" is_motion="N" category="Daily life">
-                <selection type="facial" facial_id="head_happy"/>
-		<prop id="nccxmas_03present.swf" theme="common" aid="11466" />
-            </action>
-            <action id="rof_offer_gift01b" name="Give gift" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Daily life">
+            <action id="rof_offer_gift01" name="Give gift" loop="Y" totalframe="20" enable="N" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_happy"/>
 		<prop id="nccxmas_03present.swf" theme="common" aid="11466" />
             </action>
-            <action id="rof_run02b" name="Run slomo" loop="Y" totalframe="50" enable="Y" is_motion="Y" category="Daily life">
+            <action id="rof_offer_gift01b" name="Give gift" loop="Y" totalframe="50" enable="N" is_motion="N" category="Daily life">
+                <selection type="facial" facial_id="head_happy"/>
+		<prop id="nccxmas_03present.swf" theme="common" aid="11466" />
+            </action>
+            <action id="rof_run02b" name="Run slomo" loop="Y" totalframe="50" enable="N" is_motion="Y" category="Daily life">
                 <selection type="facial" facial_id="head_cool"/>
             </action>
-            <action id="rof_run03c" name="High speed chase" loop="Y" totalframe="6" enable="Y" is_motion="Y" category="Daily life">
+            <action id="rof_run03c" name="High speed chase" loop="Y" totalframe="6" enable="N" is_motion="Y" category="Daily life">
                 <selection type="facial" facial_id="head_overexcited"/>
             </action>
             <action id="rof_run_cry" name="Run crying" loop="Y" totalframe="16" enable="Y" is_motion="Y" category="Emotions">
@@ -1916,13 +1918,13 @@
             <action id="rof_shy01" name="Shy" loop="Y" totalframe="40" enable="Y" is_motion="N" category="Emotions">
                 <selection type="facial" facial_id="head_shy"/>
             </action>
-            <action id="rof_sit" name="Sitting" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Poses / Gestures">
+            <action id="rof_sit" name="Sitting" loop="Y" totalframe="1" enable="N" is_motion="N" category="Poses / Gestures">
                 <selection type="facial" facial_id="head_neutral"/>
             </action>
-            <action id="rof_sit_laugh" name="Sitting - Laugh" loop="Y" totalframe="6" enable="Y" is_motion="N" category="Poses / Gestures">
+            <action id="rof_sit_laugh" name="Sitting - Laugh" loop="Y" totalframe="6" enable="N" is_motion="N" category="Poses / Gestures">
                 <selection type="facial" facial_id="head_laugh"/>
             </action>
-            <action id="rof_sit_talk" name="Sitting - Talk" loop="Y" totalframe="40" enable="Y" is_motion="N" category="Poses / Gestures">
+            <action id="rof_sit_talk" name="Sitting - Talk" loop="Y" totalframe="40" enable="N" is_motion="N" category="Poses / Gestures">
                 <selection type="facial" facial_id="head_talkhappy"/>
             </action>
             <action id="rof_snub01" name="Snub" loop="Y" totalframe="20" enable="Y" is_motion="N" category="Emotions">
@@ -1983,7 +1985,7 @@
             <action id="subtle_that_bad_01" name="That bad, huh?" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
                 <selection type="facial" facial_id="head_happy"/>
             </action>
-            <action id="subtle_that_bad_02" name="That bad, huh?" loop="Y" totalframe="33" enable="Y" is_motion="N" category="Emotions">
+            <action id="subtle_that_bad_02" name="That bad, huh?" loop="Y" totalframe="33" enable="N" is_motion="N" category="Emotions">
                 <selection type="facial" facial_id="head_happy"/>
             </action>
             <action id="subtle_wait" name="Get impatient" loop="Y" totalframe="6" enable="Y" is_motion="N" category="Emotions">
@@ -2105,10 +2107,10 @@
             <action id="vic_get_hit10c" name="Walk - squashed" loop="Y" totalframe="9" enable="Y" is_motion="Y" category="Victim" next="vic_get_hit10b">
                 <selection type="facial" facial_id="head_neutral"/>
             </action>
-            <action id="vic_get_hit11" name="Hit below the belt" loop="Y" totalframe="59" enable="Y" is_motion="N" category="Victim">
+            <action id="vic_get_hit11" name="Hit below the belt" loop="Y" totalframe="59" enable="N" is_motion="N" category="Victim">
                 <selection type="facial" facial_id="head_shocked"/>
             </action>
-            <action id="vic_get_hit11a" name="Hit below the belt" loop="Y" totalframe="12" enable="Y" is_motion="N" category="Victim">
+            <action id="vic_get_hit11a" name="Hit below the belt" loop="Y" totalframe="12" enable="N" is_motion="N" category="Victim">
                 <selection type="facial" facial_id="head_sad"/>
             </action>
             <action id="vic_get_hit12" name="KO" loop="Y" totalframe="45" enable="Y" is_motion="N" category="Victim">
@@ -2179,7 +2181,7 @@
             </action>
 		</actionpack>
 
-        <actionpack id="golitedickie" name="GA Lite" money="0" sharing="0" is_premium="Y" enable="Y" is_plus="N">
+        <actionpack id="golitedickie" name="GA Lite" money="0" sharing="0" is_premium="Y" enable="N" is_plus="N">
             <action id="lite_cam_hold" name="Carry camera" loop="Y" totalframe="1" enable="Y" is_motion="N" category="GA Lite">
                 <selection type="facial" facial_id="head_neutral"/>
             </action>
@@ -2291,32 +2293,32 @@
             <action id="talk02" name="Talk" loop="Y" totalframe="50" enable="Y" is_motion="N" category="Daily life">
                 <selection type="facial" facial_id="head_talkneutral"/>
             </action>
-            <action id="zombie_walk" name="Zombie walk" loop="Y" totalframe="28" enable="Y" is_motion="Y" category="Halloween">
+            <action id="zombie_walk" name="Zombie walk" loop="Y" totalframe="28" enable="N" is_motion="Y" category="Halloween">
                 <selection type="facial" facial_id="head_angry"/>
             </action>
-            <action id="zombie_scare" name="Frighten" loop="Y" totalframe="28" enable="Y" is_motion="N" category="Halloween">
+            <action id="zombie_scare" name="Frighten" loop="Y" totalframe="28" enable="N" is_motion="N" category="Halloween">
                 <selection type="facial" facial_id="head_angry"/>
             </action>
             <action id="surprised" name="Surprised" loop="Y" totalframe="40" enable="Y" is_motion="N" category="Emotions">
                  <selection type="facial" facial_id="head_surprised"/>
             </action>
 
-            <action id="easter_walk" name="Walk" loop="Y" totalframe="16" enable="Y" is_motion="Y" category="Easter">
+            <action id="easter_walk" name="Walk" loop="Y" totalframe="16" enable="N" is_motion="Y" category="Easter">
                  <selection type="facial" facial_id="head_neutral"/>
             </action>
-            <action id="easter_stand_01" name="Egg" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Easter">
+            <action id="easter_stand_01" name="Egg" loop="Y" totalframe="1" enable="N" is_motion="N" category="Easter">
                  <selection type="facial" facial_id="head_neutral"/>
             </action>
-            <action id="easter_stand_02" name="Feet breaking out" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Easter">
+            <action id="easter_stand_02" name="Feet breaking out" loop="Y" totalframe="1" enable="N" is_motion="N" category="Easter">
                  <selection type="facial" facial_id="head_neutral"/>
             </action>
-            <action id="easter_stand_03" name="Standing" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Easter">
+            <action id="easter_stand_03" name="Standing" loop="Y" totalframe="1" enable="N" is_motion="N" category="Easter">
                  <selection type="facial" facial_id="head_neutral"/>
             </action>
-            <action id="easter_jump" name="Egg - shaking" loop="Y" totalframe="37" enable="Y" is_motion="N" category="Easter">
+            <action id="easter_jump" name="Egg - shaking" loop="Y" totalframe="37" enable="N" is_motion="N" category="Easter">
                  <selection type="facial" facial_id="head_neutral"/>
             </action>
-            <action id="easter_break" name="Surprise!" loop="Y" totalframe="30" enable="Y" is_motion="N" category="Easter">
+            <action id="easter_break" name="Surprise!" loop="Y" totalframe="30" enable="N" is_motion="N" category="Easter">
                  <selection type="facial" facial_id="head_neutral"/>
             </action>
         </actionpack>
@@ -2325,32 +2327,101 @@
 		
 <!-- BODY OUTFITS START HERE -->
 
-		<library type="GoUpper" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1002" path="1002" name="1002" thumb="1002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1003" path="1003" name="1003" thumb="1003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1004" path="1004" name="1004" thumb="1004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1005" path="1005" name="1005" thumb="1005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1006" path="1006" name="1006" thumb="1006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1007" path="1007" name="1007" thumb="1007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1008" path="1008" name="1008" thumb="1008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1009" path="1009" name="1009" thumb="1009_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1010" path="1010" name="1010" thumb="1010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1011" path="1011" name="1011" thumb="1011_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1012" path="1012" name="1012" thumb="1012_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1013" path="1013" name="1013" thumb="1013_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1014" path="1014" name="1014" thumb="1014_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="1015" path="1015" name="1015" thumb="1015_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="254" path="254" name="254" thumb="254_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoUpper" id="275" path="275" name="275" thumb="275_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoUpper" id="2007" path="2007" name="2007" thumb="2007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoUpper" id="2008" path="2008" name="2008" thumb="2008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoUpper" id="2009" path="2009" name="2009" thumb="2009_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoUpper" id="2010" path="2010" name="2010" thumb="2010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoUpper" id="2011" path="2011" name="2011" thumb="2011_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoUpper" id="2012" path="2012" name="2012" thumb="2012_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoUpper" id="2013" path="2013" name="2013" thumb="2013_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoUpper" id="2014" path="2014" name="2014" thumb="2014_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="282" path="282" name="282" thumb="282_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1002" path="1002" name="1002" thumb="1002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1003" path="1003" name="1003" thumb="1003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1004" path="1004" name="1004" thumb="1004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1005" path="1005" name="1005" thumb="1005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1006" path="1006" name="1006" thumb="1006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1007" path="1007" name="1007" thumb="1007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1008" path="1008" name="1008" thumb="1008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1009" path="1009" name="1009" thumb="1009_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1010" path="1010" name="1010" thumb="1010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1011" path="1011" name="1011" thumb="1011_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1012" path="1012" name="1012" thumb="1012_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1013" path="1013" name="1013" thumb="1013_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1014" path="1014" name="1014" thumb="1014_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="1015" path="1015" name="1015" thumb="1015_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoUpper" id="254" path="254" name="254" thumb="254_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+		<library type="GoUpper" id="275" path="275" name="275" thumb="275_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+		
+		<library type="GoUpper" id="2007" path="2007" name="2007" thumb="2007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+		<library type="GoUpper" id="2008" path="2008" name="2008" thumb="2008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+		<library type="GoUpper" id="2009" path="2009" name="2009" thumb="2009_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+		<library type="GoUpper" id="2010" path="2010" name="2010" thumb="2010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+		<library type="GoUpper" id="2011" path="2011" name="2011" thumb="2011_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+		<library type="GoUpper" id="2012" path="2012" name="2012" thumb="2012_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+		<library type="GoUpper" id="2013" path="2013" name="2013" thumb="2013_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+		<library type="GoUpper" id="2014" path="2014" name="2014" thumb="2014_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+
+        <library type="GoUpper" id="282" path="282" name="282" thumb="282_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
 		
 <!--PAGE 1-->
         <library type="GoUpper" id="263" path="263" name="263" thumb="263_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -2394,27 +2465,69 @@
 
 		<!-- Sci-fi -->
 		
-        <library type="GoUpper" id="042" path="042" name="042" thumb="042_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>	
-        <library type="GoUpper" id="285" path="285" name="285" thumb="285_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="286" path="286" name="286" thumb="286_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="287" path="287" name="287" thumb="287_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="288" path="288" name="288" thumb="288_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="289" path="289" name="289" thumb="289_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="291" path="291" name="291" thumb="291_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="292" path="292" name="292" thumb="292_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="293" path="293" name="293" thumb="293_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="294" path="294" name="294" thumb="294_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="295" path="295" name="295" thumb="295_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="296" path="296" name="296" thumb="296_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="297" path="297" name="297" thumb="297_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="298" path="298" name="298" thumb="298_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="299" path="299" name="299" thumb="299_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="303" path="303" name="303" thumb="303_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="300" path="300" name="300" thumb="300_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="301" path="301" name="301" thumb="301_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="302" path="302" name="302" thumb="302_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="182" path="182" name="182" thumb="182_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="183" path="183" name="183" thumb="183_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="042" path="042" name="042" thumb="042_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>	
+        <library type="GoUpper" id="285" path="285" name="285" thumb="285_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+		</library>
+        <library type="GoUpper" id="286" path="286" name="286" thumb="286_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="287" path="287" name="287" thumb="287_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="288" path="288" name="288" thumb="288_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="289" path="289" name="289" thumb="289_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="291" path="291" name="291" thumb="291_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="292" path="292" name="292" thumb="292_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="293" path="293" name="293" thumb="293_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="294" path="294" name="294" thumb="294_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="295" path="295" name="295" thumb="295_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="296" path="296" name="296" thumb="296_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="297" path="297" name="297" thumb="297_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="298" path="298" name="298" thumb="298_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="299" path="299" name="299" thumb="299_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="303" path="303" name="303" thumb="303_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="300" path="300" name="300" thumb="300_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="301" path="301" name="301" thumb="301_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="302" path="302" name="302" thumb="302_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+		
+        <library type="GoUpper" id="182" path="182" name="182" thumb="182_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoUpper" id="183" path="183" name="183" thumb="183_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
 
 		
         <library type="GoUpper" id="261" path="261" name="261" thumb="261_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -2656,17 +2769,19 @@
         <library type="GoUpper" id="024" path="024" name="024" thumb="024_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="052" path="052" name="052" thumb="052_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="053" path="053" name="053" thumb="053_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="054" path="054" name="054" thumb="054_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <!--DISABLED--><library type="GoUpper" id="054" path="054" name="054" thumb="054_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
         <library type="GoUpper" id="063" path="063" name="063" thumb="063_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="066" path="066" name="066" thumb="066_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="069" path="069" name="069" thumb="069_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="070" path="070" name="070" thumb="070_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="139" path="139" name="139" thumb="139_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="140" path="140" name="140" thumb="140_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="146" path="146" name="146" thumb="146_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="149" path="149" name="149" thumb="149_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="147" path="147" name="147" thumb="147_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoUpper" id="148" path="148" name="148" thumb="148_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+
+        <library type="GoUpper" id="146" path="146" name="146" thumb="146_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
+        <library type="GoUpper" id="149" path="149" name="149" thumb="149_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
+        <library type="GoUpper" id="147" path="147" name="147" thumb="147_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
+        <library type="GoUpper" id="148" path="148" name="148" thumb="148_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
+		
         <library type="GoUpper" id="242" path="242" name="242" thumb="242_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="243" path="243" name="243" thumb="243_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="244" path="244" name="244" thumb="244_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -2675,19 +2790,48 @@
         <library type="GoUpper" id="247" path="247" name="247" thumb="247_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		
 <!-- FEET START HERE -->
-        <library type="GoLower" id="000" path="000" name="000" thumb="000_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="1002" path="1002" name="1002" thumb="1002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="1003" path="1003" name="1003" thumb="1003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="2003" path="2003" name="2003" thumb="2003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="2004" path="2004" name="2004" thumb="2004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="2005" path="2005" name="2005" thumb="2005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="2006" path="2006" name="2006" thumb="2006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="2007" path="2007" name="2007" thumb="2007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="2008" path="2008" name="2008" thumb="2008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="2009" path="2009" name="2009" thumb="2009_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="2010" path="2010" name="2010" thumb="2010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="023" path="023" name="023" thumb="023_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoLower" id="000" path="000" name="000" thumb="000_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+        <library type="GoLower" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoLower" id="1002" path="1002" name="1002" thumb="1002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoLower" id="1003" path="1003" name="1003" thumb="1003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+			<tag>_lilpetz</tag>
+		</library>
+        <library type="GoLower" id="2003" path="2003" name="2003" thumb="2003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+        <library type="GoLower" id="2004" path="2004" name="2004" thumb="2004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+        <library type="GoLower" id="2005" path="2005" name="2005" thumb="2005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+        <library type="GoLower" id="2006" path="2006" name="2006" thumb="2006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+        <library type="GoLower" id="2007" path="2007" name="2007" thumb="2007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+        <library type="GoLower" id="2008" path="2008" name="2008" thumb="2008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+        <library type="GoLower" id="2009" path="2009" name="2009" thumb="2009_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+        <library type="GoLower" id="2010" path="2010" name="2010" thumb="2010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+
+
+        <library type="GoLower" id="023" path="023" name="023" thumb="023_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
         <library type="GoLower" id="013" path="013" name="013" thumb="013_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoLower" id="002" path="002" name="002" thumb="002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoLower" id="005" path="005" name="005" thumb="005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -2713,9 +2857,15 @@
         <library type="GoLower" id="021" path="021" name="021" thumb="021_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoLower" id="020" path="020" name="020" thumb="020_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoLower" id="019" path="019" name="019" thumb="019_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="022" path="022" name="022" thumb="022_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoLower" id="007" path="007" name="007" thumb="007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoLower" id="032" path="032" name="032" thumb="032_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoLower" id="022" path="022" name="022" thumb="022_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+		<library type="GoLower" id="007" path="007" name="007" thumb="007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+        <library type="GoLower" id="032" path="032" name="032" thumb="032_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
         <library type="GoLower" id="008" path="008" name="008" thumb="008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoLower" id="010" path="010" name="010" thumb="010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoLower" id="018" path="018" name="018" thumb="018_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -2726,9 +2876,17 @@
 
 		
 <!-- BACK PROPS START HERE -->
-		<library type="GoBehindBody" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-        <library type="GoBehindBody" id="022" path="022" name="022" thumb="022_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoBehindBody" id="023" path="023" name="023" thumb="023_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>	
+		<library type="GoBehindBody" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+
+		<library type="GoBehindBody" id="022" path="022" name="022" thumb="022_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>
+		<library type="GoBehindBody" id="023" path="023" name="023" thumb="023_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</library>		
+
         <library type="GoBehindBody" id="020" path="020" name="020" thumb="020_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoBehindBody" id="021" path="021" name="021" thumb="021_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoBehindBody" id="019" path="019" name="019" thumb="019_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -2752,7 +2910,10 @@
 
 
 <!-- HANDS START HERE -->
-		<library type="GoHands" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+		<library type="GoHands" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</library>
+
         <library type="GoHands" id="2001" path="2001" name="2001" thumb="2001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoHands" id="2002" path="2002" name="2002" thumb="2002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoHands" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -2767,7 +2928,8 @@
         <library type="GoHands" id="005" path="005" name="005" thumb="005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoHands" id="006" path="006" name="006" thumb="006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoHands" id="007" path="007" name="007" thumb="007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		<library type="GoHands" id="008" path="008" name="008" thumb="008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+
+		<library type="GoHands" id="008" path="008" name="008" thumb="008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		
         <component type="freeaction" id="default" path="default" name="default" thumb="" money="0" sharing="0" enable="Y"/>
     </bodyshape>
@@ -2836,6 +2998,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
     <component type="eye" id="1002" path="1002" name="1002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -2856,6 +3019,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
     <component type="eye" id="1003" path="1003" name="1003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -2876,6 +3040,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
     <component type="eye" id="1004" path="1004" name="1004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -2896,6 +3061,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
     <component type="eye" id="1005" path="1005" name="1005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -2916,6 +3082,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
     <component type="eye" id="1006" path="1006" name="1006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -2936,6 +3103,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
 
     <component type="eye" id="2001" path="2001" name="2001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -3017,6 +3185,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
     <component type="eye" id="2005" path="2005" name="2005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -3037,6 +3206,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
     <component type="eye" id="2006" path="2006" name="2006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -3057,6 +3227,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
     <component type="eye" id="2007" path="2007" name="2007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -3077,6 +3248,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
     <component type="eye" id="2008" path="2008" name="2008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -3097,6 +3269,7 @@
         <state id="broken02" filename="broken02.swf"/>
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
    </component>
    <component type="eye" id="021" path="021" name="021" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -3159,7 +3332,7 @@
         <state id="up" filename="up.swf"/>
         <state id="wink" filename="wink.swf"/>
     </component>
-    <component type="eye" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <!--DISABLED--><component type="eye" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="angry" filename="angry.swf"/>
         <state id="closed_eye" filename="closed_eye.swf"/>
         <state id="confused" filename="confused.swf"/>
@@ -3577,6 +3750,7 @@
         <state id="thinking" filename="thinking.swf"/>
         <state id="stand02" filename="stand02.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="eyebrow" id="2004" path="2004" name="2004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -3588,6 +3762,7 @@
         <state id="thinking" filename="thinking.swf"/>
         <state id="stand02" filename="stand02.swf"/>
         <state id="wink" filename="wink.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="eyebrow" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -3624,34 +3799,44 @@
     </component>
     <component type="facedecoration" id="2004" path="2004" name="2004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
 
     <component type="facedecoration" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="facedecoration" id="1002" path="1002" name="1002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="facedecoration" id="1003" path="1003" name="1003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="facedecoration" id="1004" path="1004" name="1004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="facedecoration" id="1005" path="1005" name="1005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="facedecoration" id="1006" path="1006" name="1006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="facedecoration" id="1007" path="1007" name="1007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="facedecoration" id="1008" path="1008" name="1008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="facedecoration" id="1009" path="1009" name="1009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
 
     <component type="facedecoration" id="091" path="091" name="091" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -3926,7 +4111,8 @@
     <component type="facedecoration" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="facedecoration" id="023" path="023" name="023" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+<!-- DISABLED -->
+    <component type="facedecoration" id="023" path="023" name="023" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="default" filename="default.swf"/>
     </component>
 
@@ -3935,27 +4121,35 @@
 
     <component type="faceshape" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="1002" path="1002" name="1002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="1003" path="1003" name="1003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="1004" path="1004" name="1004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="1005" path="1005" name="1005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="1006" path="1006" name="1006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="1007" path="1007" name="1007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="1008" path="1008" name="1008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
 
     <component type="faceshape" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -3972,27 +4166,35 @@
     </component>
     <component type="faceshape" id="2003" path="2003" name="2003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="2004" path="2004" name="2004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="2005" path="2005" name="2005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="2006" path="2006" name="2006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="2007" path="2007" name="2007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="2008" path="2008" name="2008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="2009" path="2009" name="2009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="faceshape" id="2010" path="2010" name="2010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
 
     <component type="faceshape" id="019" path="019" name="019" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -4162,25 +4364,25 @@
     <component type="faceshape" id="032" path="032" name="032" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="faceshape" id="027" path="027" name="027" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <component type="faceshape" id="027" path="027" name="027" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="faceshape" id="028" path="028" name="028" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <component type="faceshape" id="028" path="028" name="028" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="faceshape" id="026" path="026" name="026" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <component type="faceshape" id="026" path="026" name="026" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="faceshape" id="024" path="024" name="024" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <component type="faceshape" id="024" path="024" name="024" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="faceshape" id="025" path="025" name="025" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <component type="faceshape" id="025" path="025" name="025" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="faceshape" id="023" path="023" name="023" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <component type="faceshape" id="023" path="023" name="023" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="faceshape" id="022" path="022" name="022" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <component type="faceshape" id="022" path="022" name="022" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="default" filename="default.swf"/>
     </component>
 	
@@ -4248,40 +4450,52 @@
 
     <component type="hair" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="hair" id="1002" path="1002" name="1002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="hair" id="1003" path="1003" name="1003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="hair" id="1004" path="1004" name="1004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="hair" id="1005" path="1005" name="1005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="hair" id="1006" path="1006" name="1006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="hair" id="1007" path="1007" name="1007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="hair" id="1008" path="1008" name="1008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="hair" id="1009" path="1009" name="1009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="hair" id="1010" path="1010" name="1010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="hair" id="1011" path="1011" name="1011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
 
     <component type="hair" id="204" path="204" name="204" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
 
 <!--PAGE 1-->
@@ -4432,7 +4646,7 @@
     <component type="hair" id="167" path="167" name="167" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
-    <component type="hair" id="169" path="169" name="169" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <component type="hair" id="169" path="169" name="169" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="default" filename="default.swf"/>
     </component>
     <component type="hair" id="171" path="171" name="171" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -4955,6 +5169,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="mouth" id="1002" path="1002" name="1002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -4976,6 +5191,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="mouth" id="1003" path="1003" name="1003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -4997,6 +5213,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="mouth" id="1004" path="1004" name="1004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -5018,6 +5235,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="mouth" id="1005" path="1005" name="1005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -5039,6 +5257,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="mouth" id="1006" path="1006" name="1006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -5060,6 +5279,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="mouth" id="1007" path="1007" name="1007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -5081,6 +5301,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="mouth" id="2005" path="2005" name="2005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -5102,6 +5323,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="mouth" id="2006" path="2006" name="2006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -5123,6 +5345,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="mouth" id="2007" path="2007" name="2007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -5144,6 +5367,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="mouth" id="2008" path="2008" name="2008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="angry" filename="angry.swf"/>
@@ -5165,6 +5389,7 @@
 		<state id="happy02" filename="happy02.swf"/>
 		<state id="stand02" filename="stand02.swf"/>
 		<state id="run03" filename="run03.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
 
     <component type="mouth" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -5609,7 +5834,7 @@
 		<state id="run03" filename="run03.swf"/>
     </component>
 
-    <component type="mouth" id="015" path="015" name="015" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+    <component type="mouth" id="015" path="015" name="015" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="angry" filename="angry.swf"/>
         <state id="confused" filename="confused.swf"/>
         <state id="cry" filename="cry.swf"/>
@@ -5635,21 +5860,27 @@
 
     <component type="nose" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="nose" id="1002" path="1002" name="1002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="nose" id="1003" path="1003" name="1003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="nose" id="1004" path="1004" name="1004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="nose" id="2006" path="2006" name="2006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
     <component type="nose" id="2007" path="2007" name="2007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
+		<tag>_userrole_admin</tag>
     </component>
 
     <component type="nose" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
