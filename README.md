@@ -11,5 +11,6 @@ put this in config.json
         "SWF_URL": "https://2epik4u.github.io/GoAnimate-Modded-Assets/animation/414827163ad4eb60",
         "STORE_URL": "https://2epik4u.github.io/GoAnimate-Modded-Assets/store/3a981f5cb2739137",
         "CLIENT_URL": "https://2epik4u.github.io/GoAnimate-Modded-Assets/static/ad44370a650793d9"
-}```
+}
+```
 
