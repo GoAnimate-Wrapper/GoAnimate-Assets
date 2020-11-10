@@ -1,0 +1,4 @@
+<char id="glaceon" name="Lazuli the Nasty Girl" thumb="sit.swf" facing="left" default="sit.swf" enable="Y" is_premium="N" aid="36700" money="0" sharing="0">
+<action id="sit.swf" name="Sit" loop="Y" totalframe="1" enable="Y" aid="36701"/>
+<facial id="head_talk.swf" name="Talk" enable="Y" aid="36702"/>
+</char>

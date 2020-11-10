@@ -1,0 +1,38 @@
+AN AWFUL CAILLOU SHIRT ATTEMPT BY CREEPYJOKES2000
+Can be used for whatever purposes, only thing I ask is to credit me if you decide to add this into your own LVM project
+
+---HOW TO INSTALL---
+
+1. Extract the adam_099 folder to the following directory.
+server\store\3a981f5cb2739137\cc_store\family\upper_body
+
+2. Refer to the previous folder (server\store\3a981f5cb2739137\cc_store\family) and open cc_theme.xml with a file editor. (Notepad for example)
+
+3. Scroll down until you find one of these lines of code.
+<component type="upper_body" id="adam_001" path="adam_001" name="adam_001" thumb="thumbnail.swf">...
+
+4. Enter a new line either above or below what was previously found and copy and paste the following into the new line.
+
+        <component type="upper_body" id="adam_099" path="adam_099" name="adam_099" thumb="thumbnail.swf" display_order="180" money="0" sharing="0" enable="Y">
+            <state id="chuckle" filename="chuckle.swf"/>
+            <state id="crossed_arms" filename="crossed_arms.swf"/>
+            <state id="dance" filename="dance.swf"/>
+            <state id="default" filename="default.swf"/>
+            <state id="excited" filename="excited.swf"/>
+            <state id="fearful" filename="fearful.swf"/>
+            <state id="kneel_down" filename="kneel_down.swf"/>
+            <state id="laugh" filename="laugh.swf"/>
+            <state id="lie_down" filename="lie_down.swf"/>
+            <state id="point_at" filename="point_at.swf"/>
+            <state id="run" filename="run.swf"/>
+            <state id="sad" filename="sad.swf"/>
+            <state id="sit" filename="sit.swf"/>
+            <state id="talk" filename="talk.swf"/>
+            <state id="talk_on_phone" filename="talk_on_phone.swf"/>
+            <state id="taunt" filename="taunt.swf"/>
+            <state id="walk" filename="walk.swf"/>
+        </component>
+
+5. Save the file and you're pretty much done.
+
+Open up Wrapper: Offline and congratulations! You've got yourself an awful Caillou shirt for your grounding pleasures!!
