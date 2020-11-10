@@ -1,12 +1,11 @@
-# d3v4eglovri8yt cloudfront recreation
- 
-This is a cool recreation of the d3v4eglovri8yt cloudfront server, with a bunch of community made mods
+# GoAnimate Assets
+This is a cool recreation of the `d3v4eglovri8yt` CloudFront server used by GoAnimate's Legacy Video Maker prior to its retirement, along with a bunch of community-made mods.
 
-# I want too upload a custom asset here!
-make a pull request or just ask me on discord
+## How to Contribute
+Simply make a pull request.
 
-# How do i use this in my API (legacy video maker clone)?
-put this in config.json
+## To Use the Asset Library
+In [Wrapper](https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper), Set the contents of `config.json` to:
 ```
 {
         "SWF_URL": "https://2epik4u.github.io/GoAnimate-Modded-Assets/animation/414827163ad4eb60",
