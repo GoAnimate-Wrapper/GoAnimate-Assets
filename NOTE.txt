@@ -1,2 +1,0 @@
-GITHUB isn't putting my changes on GITHUB SITES, so i'll update this doc and see if that will help.
-We need a new way to host this... GITHUB SITES simply won't cut it.
