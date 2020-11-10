@@ -14,4 +14,21 @@ put this in config.json
         "CLIENT_URL": "https://2epik4u.github.io/GoAnimate-Modded-Assets/static/ad44370a650793d9"
 }
 ```
+# Credits
 
+# Custom Clothing & Other Custom Assets 
+Kenny Animate - Original idea
+Waleed Tariq2001
+AntiTrooperProductions UTTP
+SageAwesomeStarAniPicScope
+JackTheVyonder2006
+creepyjokes
+NathanSB
+KingHedgehog
+
+
+# Split/Custom Action Maker Mod 
+Kenny Animate
+
+# Head Accessory Splitter Mod 
+Kenny Animate
