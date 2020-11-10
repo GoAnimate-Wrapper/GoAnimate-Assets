@@ -105,7 +105,7 @@
 		</library>
 
 		<!-- Denom hacking -->
-        <library type="GoUpper" id="6002" path="6002" name="6002" thumb="6002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
+        <library type="GoUpper" id="6002" path="6002" name="6002" thumb="6002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		</component>
 
 		<component type="GoLower" xi:inherit="false">
@@ -117,7 +117,7 @@
         <library type="GoLower" id="6012" path="6012" name="6012" thumb="6012_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 
 		<!-- Denom hacking -->
-        <library type="GoLower" id="6005" path="6005" name="6005" thumb="6005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
+        <library type="GoLower" id="6005" path="6005" name="6005" thumb="6005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		</component>
 
 		<!-- BACK PROPS START HERE -->

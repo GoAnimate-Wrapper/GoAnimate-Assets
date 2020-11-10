@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list version="1.0"><fvm_meta theme_code="" is_biz="0"/>
+<theme id="commu" name="Community" file="commu\theme.xml" hitman="N" seg1="custom\custom.zip" seg2="custom\custom2.zip" thumb="" cc_theme_id=""/>
+<theme id="common" name="Common" file="common\theme.xml" hitman="N" seg1="common\common.zip" seg2="common\common2.zip" thumb="matchboy-stand.swf" cc_theme_id=""/><excludeAssetIDs/><points money="0" sharing="0"/></list>

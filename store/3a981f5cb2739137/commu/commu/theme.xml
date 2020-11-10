@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="commu" name="Community">
+<char id="knucks" name="Knuckles" thumb="knucks.swf" facing="left" default="knucks.swf" motion="knuckwalk.swf" enable="Y">
+<action id="knucks.swf" name="Stand" loop="Y" totalframe="3"/>
+<motion id="knuckswalk.swf" name="Walk" loop="Y" totalframe="3"/>
+<motion id="knuckspin.swf" name="Spinball" loop="Y" totalframe="3"/>
+<action id="knuckspindash.swf" name="Spindash" loop="Y" totalframe="3"/>
+<action id="knuckspindashnodust.swf" name="Spindash (No Dust)" loop="Y" totalframe="3"/>
+</char>
+<char id="sonicflash" name="Sonic the Hedgehog" thumb="stand.swf" facing="left" default="stand.swf" motion="runalt2.swf" enable="Y">
+<action id="chilidog.swf" name="Eat a Chilidog" loop="N" totalframe="3"/>
+<category name="Motion">
+<motion id="run.swf" name="Run" loop="Y" totalframe="16"/>
+<motion id="alsorun.swf" name="Walk" loop="Y" totalframe="18"/>
+<motion id="runalt2.swf" name="Run Alt." loop="Y" totalframe="20"/>
+<action id="intospinball.swf" name="Into spinball" loop="N" totalframe="44"/>
+<motion id="spinball.swf" name="Spinball" loop="Y" totalframe="44"/>
+<action id="spindash.swf" name="Spindash" loop="Y" totalframe="44"/>
+<action id="spindashnodust.swf" name="Spindash (No Dust)" loop="Y" totalframe="44"/>
+<action id="takeoff.swf" name="Take off!" loop="N" totalframe="44"/>
+<action id="quickertakeoff.swf" name="Take off! (Faster)" loop="N" totalframe="44"/>
+<action id="skid.swf" name="Skid" loop="N" totalframe="44"/>
+</category>
+<action id="stand.swf" name="Stand" loop="Y" totalframe="2"/>
+<category name="Fight">
+<action id="kick.swf" name="Kick" loop="Y" totalframe="4"/>
+<action id="punch.swf" name="Punch" loop="Y" totalframe="44"/>
+</category>
+<category name="Emotions">
+<action id="idle.swf" name="Waiting..." loop="Y" totalframe="4"/>
+<action id="talk.swf" name="Talk" loop="Y" totalframe="4"/>
+<action id="angrytalk.swf" name="Talk Angry" loop="Y" totalframe="80"/>
+<action id="laugh.swf" name="Laugh" loop="Y" totalframe="70"/>
+<action id="victory.swf" name="Victory Pose" loop="N" totalframe="44"/>
+<action id="taunt.swf" name="Taunt" loop="Y" totalframe="44"/>
+</category>
+<category name="Super Sonic">
+<action id="transform.swf" name="Transform" loop="N" totalframe="45"/>
+<action id="supermove.swf" name="Hover" loop="Y" totalframe="45"/>
+<action id="backtonormal.swf" name="Revert" loop="Y" totalframe="44"/>
+</category>
+</char>
+  <char id="happybunny" name="Happy Bunny" thumb="stand.swf" facing="left" default="stand.swf" motion="move.swf" enable="Y" is_premium="N" aid="237" money="0" sharing="0">
+    <action id="stand.swf" name="Stand" loop="Y" totalframe="1" enable="Y" aid="238"/>
+    <motion id="move.swf" name="Walk" loop="Y" totalframe="1" enable="Y" aid="239"/>
+    <action id="guitar.swf" name="Play guitar" loop="Y" totalframe="1" enable="Y" aid="240"/>
+    <action id="butt.swf" name="Show behind" loop="Y" totalframe="1" enable="Y" aid="241"/>
+    <action id="toot.swf" name="Fart" loop="Y" totalframe="1" enable="Y" aid="242"/>
+    <action id="unkown.swf" name="Hammer" loop="Y" totalframe="1" enable="Y" aid="243"/>
+    <action id="pleased.swf" name="Amused" loop="Y" totalframe="1" enable="Y" aid="244"/>
+    <action id="dance.swf" name="Dance" loop="Y" totalframe="1" enable="Y" aid="245"/>
+    <action id="taunt.swf" name="Taunt" loop="Y" totalframe="1" enable="Y" aid="246"/>
+    <action id="altbutt.swf" name="Spraypaint" loop="Y" totalframe="1" enable="Y" aid="247"/>
+  </char>
+  <prop id="back.swf" name="Background" holdable="0" placeable="1" facing="left" thumb="" enable="Y" is_premium="N" aid="1030" money="0" sharing="0"/>
+  <prop id="comingsoon.swf" name="Coming Soon..." holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1031" money="0" sharing="0"/>
+  <prop id="logo.swf" name="Happy Bunny Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1032" money="0" sharing="0"/>
+ <prop id="logo2.swf" name="Happy Bunny Logo 2" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1033" money="0" sharing="0"/>
+  <prop id="unkown.swf" name="Happy Bunny Logo 3" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1034" money="0" sharing="0"/>
+  <prop id="unkown2.swf" name="Bunny Head" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1035" money="0" sharing="0"/>
+  <prop id="unkown3.swf" name="Chick Crossing" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1036" money="0" sharing="0"/>
+  <prop id="watermark.swf" name="Watermark" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="1037" money="0" sharing="0"/>
+  <effect id="dim.swf" type="ANIME" resize="false" move="false" name="Dim" enable="Y" is_premium="N" aid="1216" money="0" sharing="0" display_order="0"/>
+  <effect id="spraypaint.swf" type="ANIME" resize="false" move="false" name="Spraypaint" enable="Y" is_premium="N" aid="1217" money="0" sharing="0" display_order="0"/>
+  </theme>

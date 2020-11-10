@@ -13,7 +13,7 @@
         <choice>0xAC8151</choice>
         <choice>0x8d6850</choice>
     </color>
-<color r="ccFaceHairColor" component_type="bodyshape" enable="N">
+<color r="ccFaceHairColor" component_type="bodyshape" enable="Y">
         <choice>0xF2E784</choice>
         <choice>0xE3EEF4</choice>
         <choice>0x7E4D1B</choice>
@@ -23,7 +23,7 @@
         <choice>0xBA4545</choice>
         <choice>0x6C5E91</choice>
     </color>
-<color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="N">
+<color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="Y">
         <choice>0x5F3F29</choice>
         <choice>0xBD8764</choice>
         <choice>0x80DCE6</choice>
@@ -33,7 +33,7 @@
         <choice>0xE47070</choice>
         <choice>0x4B0156</choice>
     </color>
-<color r="ccEyeIris" component_type="eye" enable="N">
+<color r="ccEyeIris" component_type="eye" enable="Y">
         <choice>0x988986</choice>
         <choice>0x229188</choice>
         <choice>0x7D551C</choice>
@@ -43,7 +43,7 @@
         <choice>0x669900</choice>
         <choice>0xEA7B9D</choice>
     </color>
-<color r="ccGlassesFrame" component_type="glasses" enable="N">
+<color r="ccGlassesFrame" component_type="glasses" enable="Y">
         <choice>0xAE0057</choice>
         <choice>0x53A8DF</choice>
         <choice>0xEC9EC5</choice>
@@ -53,7 +53,7 @@
         <choice>0x4A6028</choice>
         <choice>0x000000</choice>
     </color>
-<color r="ccGlassesLens" component_type="glasses" enable="N">
+<color r="ccGlassesLens" component_type="glasses" enable="Y">
         <choice>0xFFFFFF</choice>
         <choice>0x555555</choice>
         <choice>0xBC6A70</choice>
@@ -63,7 +63,7 @@
         <choice>0x640F0F</choice>
         <choice>0x000000</choice>
     </color>
-<color r="ccMouthLip" component_type="mouth" enable="N">
+<color r="ccMouthLip" component_type="mouth" enable="Y">
         <choice>0xB7796A</choice>
         <choice>0x9A6C46</choice>
         <choice>0xCA3030</choice>
@@ -93,7 +93,7 @@
         <choice>0xD2A12C</choice>
         <choice>0x3C3C3C</choice>
     </color>
-<color r="ccUpperMain" component_type="GoUpper" enable="N">
+<color r="ccUpperMain" component_type="GoUpper" enable="Y">
         <choice>0xFFF3FF</choice>
         <choice>0xFFFFAA</choice>
         <choice>0x6A944F</choice>
@@ -103,7 +103,7 @@
         <choice>0x3D8075</choice>
         <choice>0x3C3C3C</choice>
     </color>
-<color r="ccUpperMinor" component_type="GoUpper" enable="N">
+<color r="ccUpperMinor" component_type="GoUpper" enable="Y">
         <choice>0xFFFEFF</choice>
         <choice>0xC6C648</choice>
         <choice>0x3A5529</choice>
@@ -113,7 +113,7 @@
         <choice>0x0C594C</choice>
         <choice>0x3C3C3C</choice>
     </color>
-<color r="ccLowerMain" component_type="GoLower" enable="N">
+<color r="ccLowerMain" component_type="GoLower" enable="Y">
         <choice>0xFFFEFF</choice>
         <choice>0x4F5157</choice>
         <choice>0xA4A4A4</choice>
@@ -123,7 +123,7 @@
         <choice>0x65503B</choice>
         <choice>0x3C3C3C</choice>
     </color>
-<color r="ccLowerMinor" component_type="GoLower" enable="N">
+<color r="ccLowerMinor" component_type="GoLower" enable="Y">
         <choice>0xFFF3FF</choice>
         <choice>0x4F5157</choice>
         <choice>0xA4A4A4</choice>
@@ -133,7 +133,7 @@
         <choice>0x65503B</choice>
         <choice>0x3C3C3C</choice>
     </color>
-<color r="ccDecMajor" component_type="facedecoration" enable="N">
+<color r="ccDecMajor" component_type="facedecoration" enable="Y">
         <choice>0xAE0057</choice>
         <choice>0x53A8DF</choice>
         <choice>0xEC9EC5</choice>
@@ -143,7 +143,7 @@
         <choice>0x4A6028</choice>
         <choice>0x000000</choice>
     </color>
-<color r="ccDecMinor" component_type="facedecoration" enable="N">
+<color r="ccDecMinor" component_type="facedecoration" enable="Y">
         <choice>0xFFFFFF</choice>
         <choice>0x555555</choice>
         <choice>0xBC6A70</choice>
@@ -153,7 +153,7 @@
         <choice>0x640F0F</choice>
         <choice>0x000000</choice>
     </color>
-<color r="ccBackMajor" component_type="GoBehindBody" enable="N">
+<color r="ccBackMajor" component_type="GoBehindBody" enable="Y">
         <choice>0xAE0057</choice>
         <choice>0x53A8DF</choice>
         <choice>0xEC9EC5</choice>
@@ -163,7 +163,7 @@
         <choice>0x4A6028</choice>
         <choice>0x000000</choice>
     </color>
-<color r="ccBackMinor" component_type="GoBehindBody" enable="N">
+<color r="ccBackMinor" component_type="GoBehindBody" enable="Y">
         <choice>0xFFFFFF</choice>
         <choice>0x555555</choice>
         <choice>0xBC6A70</choice>
@@ -173,7 +173,7 @@
         <choice>0x640F0F</choice>
         <choice>0x000000</choice>
     </color>
-<color r="ccHandMain" component_type="GoHands" enable="N">
+<color r="ccHandMain" component_type="GoHands" enable="Y">
         <choice>0x2F2F2F</choice>
         <choice>0xB80303</choice>
         <choice>0x5B88B5</choice>
@@ -488,31 +488,24 @@
 			</action>
             <action id="guy_nja_run02" name="Run-Combat" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_appear01" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_appear02" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_disappear01" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_disappear02" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_fight_stand01" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_fight_stand02" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_stand" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
@@ -537,7 +530,6 @@
 			</action>
             <action id="guy_nja_super" name="Super Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_thunder01" name="Thunder Bolts" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
@@ -550,19 +542,15 @@
 			</action>
             <action id="guy_nja_strike01" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_strike02" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_get_hit01" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_get_hit02" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_shuriken01" name="Shuriken" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
@@ -572,11 +560,9 @@
 			</action>
             <action id="guy_nja_jump01" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_jump02" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="guy_nja_kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
@@ -585,135 +571,102 @@
 <actionpack id="swordfight" name="Sword Fighting" money="0" sharing="0" enable="Y">
 			<action id="guy_sword_hurtfront" name="Hurt from front" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_hurtback" name="Hurt from behind" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_hurtbad" name="Hurt" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_hurtfatal" name="Hurt badly" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_hurtfatal2" name="Hurt badly" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_hurtair" name="Hurt (in the air)" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_dodge" name="Dodge" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_dodgecombo" name="Dodge combo" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_guard" name="Guard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_guardfront" name="Guard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_guardback" name="Guard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_guardfail" name="Guard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_guardcombo" name="Guard combo" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_jump01" name="Jump - in the air" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_jump02" name="Jump - in the air" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_run02" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_run01" name="Run - spell" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_takeout01" name="Take sword out" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_takeout01pose" name="Take sword out - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_takeout02" name="Take sword out" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_takeout02pose" name="Take sword out - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_atk01" name="Attack" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_atk01_pose" name="Attack - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_atk02" name="Attack" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_atk02_pose" name="Attack - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_atk03" name="Attack" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_atk03_pose" name="Attack - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_atk_combo01" name="Attack combo" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_atk_combo02" name="Attack combo" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_atk3hit" name="Attack combo" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_stand" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_stand02" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="guy_sword_charge" name="Power growing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 		</actionpack>
 <actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
@@ -729,7 +682,7 @@
 			<action id="guy_cry" name="Crying" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_cry"/>
 			</action>
-			<action id="guy_desperate" name="Desperate" loop="Y" totalframe="60" enable="N" is_motion="N" category="Emotions">
+			<action id="guy_desperate" name="Desperate" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_desperate"/>
 			</action>
 			<action id="guy_confused" name="Confused" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -747,7 +700,7 @@
 			<action id="guy_sitting01" name="Sitting on the floor" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
+			<action id="guy_sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="guy_sitting03" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
@@ -846,7 +799,7 @@
 			<action id="guy_b2_stand01" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="guy_b2_stand02" name="Stand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
+			<action id="guy_b2_stand02" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="guy_b2_stand03" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
@@ -1343,31 +1296,24 @@
 			</action>
             <action id="nja_run02" name="Run-Combat" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_appear01" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_appear02" name="Teleport - Appear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_disappear01" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_disappear02" name="Teleport - Disappear" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_fight_stand01" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_fight_stand02" name="Fighting Stance" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_stand" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
@@ -1392,7 +1338,6 @@
 			</action>
             <action id="nja_super" name="Super Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_thunder01" name="Thunder Bolts" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
@@ -1405,19 +1350,15 @@
 			</action>
             <action id="nja_strike01" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_strike02" name="Strike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_get_hit01" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_get_hit02" name="Get Hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_shuriken01" name="Shuriken" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
@@ -1427,11 +1368,9 @@
 			</action>
             <action id="nja_jump01" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_jump02" name="Jump" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
             <action id="nja_kneeling01" name="Kneeling" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Ninja">
 				<selection type="facial" facial_id="head_serious"/>
@@ -1440,135 +1379,102 @@
 <actionpack id="swordfight" name="Sword Fighting" money="0" sharing="0" enable="Y">
 			<action id="sword_hurtfront" name="Hurt from front" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_hurtback" name="Hurt from behind" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_hurtbad" name="Hurt" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_hurtfatal" name="Hurt badly" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_hurtfatal2" name="Hurt badly" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_hurtair" name="Hurt (in the air)" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_dodge" name="Dodge" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_dodgecombo" name="Dodge combo" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_guard" name="Guard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_guardfront" name="Guard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_guardback" name="Guard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_guardfail" name="Guard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_desperate"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_guardcombo" name="Guard combo" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_jump01" name="Jump - in the air" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_jump02" name="Jump - in the air" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_run02" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_run01" name="Run - spell" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_takeout01" name="Take sword out" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_takeout01pose" name="Take sword out - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_takeout02" name="Take sword out" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_takeout02pose" name="Take sword out - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_atk01" name="Attack" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_atk01_pose" name="Attack - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_atk02" name="Attack" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_atk02_pose" name="Attack - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_atk03" name="Attack" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_atk03_pose" name="Attack - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_atk_combo01" name="Attack combo" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_atk_combo02" name="Attack combo" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_atk3hit" name="Attack combo" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_stand" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_stand02" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 			<action id="sword_charge" name="Power growing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sword fight">
 				<selection type="facial" facial_id="head_angry"/>
-				<prop id="02sword01.swf" theme="ninjaanime" aid="99999"/>
 			</action>
 		</actionpack>
 <actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
@@ -1584,7 +1490,7 @@
 			<action id="cry" name="Crying" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_cry"/>
 			</action>
-			<action id="desperate" name="Desperate" loop="Y" totalframe="60" enable="N" is_motion="N" category="Emotions">
+			<action id="desperate" name="Desperate" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_desperate"/>
 			</action>
 			<action id="confused" name="Confused" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -1602,7 +1508,7 @@
 			<action id="sitting01" name="Sitting on the floor" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
+			<action id="sitting02" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="sitting03" name="Sitting on a chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
@@ -1701,7 +1607,7 @@
 			<action id="b2_stand01" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
-			<action id="b2_stand02" name="Stand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Poses / Gestures">
+			<action id="b2_stand02" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
 				<selection type="facial" facial_id="head_neutral"/>
 			</action>
 			<action id="b2_stand03" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses / Gestures">
@@ -2609,19 +2515,19 @@
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 	</component>
-<component type="hair" id="022" path="022" name="022" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
+<component type="hair" id="022" path="022" name="022" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_girl</tag>
 	</component>
-<component type="hair" id="023" path="023" name="023" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
+<component type="hair" id="023" path="023" name="023" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_girl</tag>
 	</component>
-<component type="hair" id="031" path="031" name="031" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
+<component type="hair" id="031" path="031" name="031" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="side_default" filename="side_default.swf"/>
         <tag>_sticky_filter_girl</tag>
     </component>
-<component type="hair" id="032" path="032" name="032" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
+<component type="hair" id="032" path="032" name="032" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="side_default" filename="side_default.swf"/>
         <tag>_sticky_filter_guy</tag>
     </component>

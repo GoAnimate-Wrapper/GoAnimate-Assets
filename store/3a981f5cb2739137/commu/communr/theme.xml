@@ -1,0 +1,95 @@
+
+<char id="guy01" name="Alpha Tom" thumb="stand01.swf" facing="left" default="stand01.swf" motion="walk.swf" enable="Y" is_premium="N" aid="15706" money="0" sharing="0">
+<action id="stand01.swf" name="Stand" loop="Y" totalframe="60" enable="Y" aid="15707"/>
+<action id="confused.swf" name="Confused" loop="Y" totalframe="60" enable="Y" aid="15708"/>
+<action id="cross_arm.swf" name="Cross Arm" loop="Y" totalframe="60" enable="Y" aid="15709"/>
+<action id="desperate.swf" name="Desperate" loop="Y" totalframe="60" enable="Y" aid="15710"/>
+<action id="excited.swf" name="Excited" loop="Y" totalframe="60" enable="Y" aid="15711"/>
+<action id="hello.swf" name="Greeting" loop="Y" totalframe="60" enable="Y" aid="15712"/>
+<action id="idea.swf" name="Get an idea" loop="N" totalframe="60" enable="Y" aid="15713"/>
+<action id="phone_a.swf" name="Tap on phone" loop="Y" totalframe="60" enable="Y" aid="15714"/>
+<action id="phone_b.swf" name="Holding phone" loop="Y" totalframe="60" enable="Y" aid="15715"/>
+<action id="phone_c.swf" name="Talk on phone" loop="Y" totalframe="60" enable="Y" aid="15716"/>
+<action id="point_a.swf" name="Point A" loop="Y" totalframe="60" enable="Y" aid="15717"/>
+<action id="point_b.swf" name="Point B" loop="Y" totalframe="60" enable="Y" aid="15718"/>
+<action id="pose_a.swf" name="Pose A" loop="Y" totalframe="60" enable="Y" aid="15719"/>
+<action id="pose_b.swf" name="Pose B" loop="Y" totalframe="60" enable="Y" aid="15720"/>
+<action id="relax.swf" name="Relax" loop="Y" totalframe="60" enable="Y" aid="15721"/>
+<action id="sick.swf" name="Sick" loop="Y" totalframe="60" enable="Y" aid="15722"/>
+<action id="sit.swf" name="Sit" loop="Y" totalframe="60" enable="Y" aid="15723"/>
+<action id="stand02.swf" name="Posing" loop="Y" totalframe="60" enable="Y" aid="15724"/>
+<action id="talk.swf" name="Talk" loop="Y" totalframe="60" enable="Y" aid="15725"/>
+<action id="thinking.swf" name="Thinking" loop="Y" totalframe="60" enable="Y" aid="15726"/>
+<action id="time.swf" name="Look at watch" loop="Y" totalframe="60" enable="Y" aid="15727"/>
+<action id="work01.swf" name="Work" loop="Y" totalframe="60" enable="Y" aid="15728"/>
+<action id="work02.swf" name="Work cleared" loop="Y" totalframe="60" enable="Y" aid="15729"/>
+<action id="sleep.swf" name="Tired" loop="Y" totalframe="60" enable="Y" aid="15730"/>
+<action id="in_love.swf" name="Fall in love" loop="Y" totalframe="60" enable="Y" aid="15731"/>
+<action id="get_noticed.swf" name="Get attention" loop="Y" totalframe="60" enable="Y" aid="15732"/>
+<motion id="walk.swf" name="Walk" loop="Y" totalframe="60" enable="Y" aid="15733"/>
+<motion id="run.swf" name="Run" loop="Y" totalframe="60" enable="Y" aid="15734"/>
+<facial id="head_angry_front.swf" name="Face Camera - Angry" enable="Y" aid="15735"/>
+<facial id="head_confused_front.swf" name="Face Camera - Confused" enable="Y" aid="15736"/>
+<facial id="head_cry_front.swf" name="Face Camera - Cry" enable="Y" aid="15737"/>
+<facial id="head_happy_front.swf" name="Face Camera - Happy" enable="Y" aid="15738"/>
+<facial id="head_neutral_front.swf" name="Face Camera - Neutral" enable="Y" aid="15739"/>
+<facial id="head_sad_front.swf" name="Face Camera - Sad" enable="Y" aid="15740"/>
+<facial id="head_sick_front.swf" name="Face Camera - Sick" enable="Y" aid="15741"/>
+<facial id="head_talk_front.swf" name="Face Camera - Talk" enable="Y" aid="15742"/>
+<facial id="head_angry_side.swf" name="3/4 Front View - Angry" enable="Y" aid="15743"/>
+<facial id="head_confused_side.swf" name="3/4 Front View - Confused" enable="Y" aid="15744"/>
+<facial id="head_cry_side.swf" name="3/4 Front View - Cry" enable="Y" aid="15745"/>
+<facial id="head_happy_side.swf" name="3/4 Front View - Happy" enable="Y" aid="15746"/>
+<facial id="head_neutral_side.swf" name="3/4 Front View - Neutral" enable="Y" aid="15747"/>
+<facial id="head_sad_side.swf" name="3/4 Front View - Sad" enable="Y" aid="15748"/>
+<facial id="head_sick_side.swf" name="3/4 Front View - Sick" enable="Y" aid="15749"/>
+<facial id="head_talk_side.swf" name="3/4 Front View - Talk" enable="Y" aid="15750"/>
+<library type="mouth" path="001" theme_id="business"/>
+</char>
+<char id="guy18" name="Beta Tom" thumb="stand01.swf" facing="left" default="stand01.swf" motion="walk.swf" enable="Y" is_premium="N" aid="16530" money="0" sharing="0">
+<action id="stand01.swf" name="Stand" loop="Y" totalframe="60" enable="Y" aid="16531"/>
+<action id="confused.swf" name="Confused" loop="Y" totalframe="60" enable="Y" aid="16532"/>
+<action id="cross_arm.swf" name="Cross Arm" loop="Y" totalframe="60" enable="Y" aid="16533"/>
+<action id="desperate.swf" name="Desperate" loop="Y" totalframe="60" enable="Y" aid="16534"/>
+<action id="excited.swf" name="Excited" loop="Y" totalframe="60" enable="Y" aid="16535"/>
+<action id="hello.swf" name="Greeting" loop="Y" totalframe="60" enable="Y" aid="16536"/>
+<action id="idea.swf" name="Get an idea" loop="N" totalframe="60" enable="Y" aid="16537"/>
+<action id="phone_a.swf" name="Tap on phone" loop="Y" totalframe="60" enable="Y" aid="16538"/>
+<action id="phone_b.swf" name="Holding phone" loop="Y" totalframe="60" enable="Y" aid="16539"/>
+<action id="phone_c.swf" name="Talk on phone" loop="Y" totalframe="60" enable="Y" aid="16540"/>
+<action id="point_a.swf" name="Point A" loop="Y" totalframe="60" enable="Y" aid="16541"/>
+<action id="point_b.swf" name="Point B" loop="Y" totalframe="60" enable="Y" aid="16542"/>
+<action id="pose_a.swf" name="Pose A" loop="Y" totalframe="60" enable="Y" aid="16543"/>
+<action id="pose_b.swf" name="Pose B" loop="Y" totalframe="60" enable="Y" aid="16544"/>
+<action id="relax.swf" name="Relax" loop="Y" totalframe="60" enable="Y" aid="16545"/>
+<action id="sick.swf" name="Sick" loop="Y" totalframe="60" enable="Y" aid="16546"/>
+<action id="sit.swf" name="Sit" loop="Y" totalframe="60" enable="Y" aid="16547"/>
+<action id="stand02.swf" name="Posing" loop="Y" totalframe="60" enable="Y" aid="16548"/>
+<action id="talk.swf" name="Talk" loop="Y" totalframe="60" enable="Y" aid="16549"/>
+<action id="thinking.swf" name="Thinking" loop="Y" totalframe="60" enable="Y" aid="16550"/>
+<action id="time.swf" name="Look at watch" loop="Y" totalframe="60" enable="Y" aid="16551"/>
+<action id="work01.swf" name="Work" loop="Y" totalframe="60" enable="Y" aid="16552"/>
+<action id="work02.swf" name="Work cleared" loop="Y" totalframe="60" enable="Y" aid="16553"/>
+<action id="sleep.swf" name="Tired" loop="Y" totalframe="60" enable="Y" aid="16554"/>
+<action id="in_love.swf" name="Fall in love" loop="Y" totalframe="60" enable="Y" aid="16555"/>
+<action id="get_noticed.swf" name="Get attention" loop="Y" totalframe="60" enable="Y" aid="16556"/>
+<motion id="walk.swf" name="Walk" loop="Y" totalframe="60" enable="Y" aid="16557"/>
+<motion id="run.swf" name="Run" loop="Y" totalframe="60" enable="Y" aid="16558"/>
+<facial id="head_angry_front.swf" name="Face Camera - Angry" enable="Y" aid="16559"/>
+<facial id="head_confused_front.swf" name="Face Camera - Confused" enable="Y" aid="16560"/>
+<facial id="head_cry_front.swf" name="Face Camera - Cry" enable="Y" aid="16561"/>
+<facial id="head_happy_front.swf" name="Face Camera - Happy" enable="Y" aid="16562"/>
+<facial id="head_neutral_front.swf" name="Face Camera - Neutral" enable="Y" aid="16563"/>
+<facial id="head_sad_front.swf" name="Face Camera - Sad" enable="Y" aid="16564"/>
+<facial id="head_sick_front.swf" name="Face Camera - Sick" enable="Y" aid="16565"/>
+<facial id="head_talk_front.swf" name="Face Camera - Talk" enable="Y" aid="16566"/>
+<facial id="head_angry_side.swf" name="3/4 Front View - Angry" enable="Y" aid="16567"/>
+<facial id="head_confused_side.swf" name="3/4 Front View - Confused" enable="Y" aid="16568"/>
+<facial id="head_cry_side.swf" name="3/4 Front View - Cry" enable="Y" aid="16569"/>
+<facial id="head_happy_side.swf" name="3/4 Front View - Happy" enable="Y" aid="16570"/>
+<facial id="head_neutral_side.swf" name="3/4 Front View - Neutral" enable="Y" aid="16571"/>
+<facial id="head_sad_side.swf" name="3/4 Front View - Sad" enable="Y" aid="16572"/>
+<facial id="head_sick_side.swf" name="3/4 Front View - Sick" enable="Y" aid="16573"/>
+<facial id="head_talk_side.swf" name="3/4 Front View - Talk" enable="Y" aid="16574"/>
+<library type="mouth" path="001" theme_id="business"/>
+</char>
