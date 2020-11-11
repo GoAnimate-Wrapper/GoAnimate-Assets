@@ -21,7 +21,7 @@
         <choice>0xBA4545</choice>
         <choice>0x6C5E91</choice>
     </color>
-    <color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="N">
+    <color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="Y">
         <choice>0x5F3F29</choice>
         <choice>0xBD8764</choice>
         <choice>0x80DCE6</choice>
@@ -31,7 +31,7 @@
         <choice>0xE47070</choice>
         <choice>0x4B0156</choice>
     </color>
-    <color r="ccEyeIris" component_type="eye" enable="N">
+    <color r="ccEyeIris" component_type="eye" enable="Y">
         <choice>0x988986</choice>
         <choice>0x229188</choice>
         <choice>0x7D551C</choice>
@@ -61,7 +61,7 @@
         <choice>0x640F0F</choice>
         <choice>0x000000</choice>
     </color>
-    <color r="ccMouthLip" component_type="mouth" enable="N">
+    <color r="ccMouthLip" component_type="mouth" enable="Y">
         <choice>0xB7796A</choice>
         <choice>0x9A6C46</choice>
         <choice>0xCA3030</choice>
@@ -541,27 +541,21 @@
 			</action>
 			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_desperate" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_neutral" />
@@ -590,10 +584,10 @@
 		<library type="GoUpper" id="010" path="010" name="010" thumb="010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 		</library>
-		<library type="GoUpper" id="012" path="012" name="012" thumb="012_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
+		<library type="GoUpper" id="012" path="012" name="012" thumb="012_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 		</library>
-		<library type="GoUpper" id="017" path="017" name="017" thumb="017_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
+		<library type="GoUpper" id="017" path="017" name="017" thumb="017_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 		</library>
 		<library type="GoUpper" id="018" path="018" name="018" thumb="018_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
@@ -629,7 +623,7 @@
 		<library type="GoUpper" id="030" path="030" name="030" thumb="030_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 		</library>
-		<library type="GoUpper" id="031" path="031" name="031" thumb="031_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
+		<library type="GoUpper" id="031" path="031" name="031" thumb="031_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 		</library>
 		<library type="GoUpper" id="032" path="032" name="032" thumb="032_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
@@ -821,11 +815,11 @@
 		</library>
 
 		<!-- Back prop -->
-		<library type="GoBehindBody" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="0" money="0" sharing="0" enable="N">
+		<library type="GoBehindBody" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
 			<tag>_userrole_admin</tag>
 			<tag>_sticky_filter_guy</tag>
 		</library>
-		<library type="GoBehindBody" id="002" path="002" name="002" thumb="002_thumbnail.swf" display_order="0" money="0" sharing="0" enable="N">
+		<library type="GoBehindBody" id="002" path="002" name="002" thumb="002_thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
 			<tag>_userrole_admin</tag>
 			<tag>_sticky_filter_guy</tag>
 		</library>
@@ -981,27 +975,21 @@
 			</action>
 			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_desperate" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_neutral" />
@@ -1264,11 +1252,11 @@
 		</library>
 
 		<!-- Back prop -->
-		<library type="GoBehindBody" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="0" money="0" sharing="0" enable="N">
+		<library type="GoBehindBody" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
 			<tag>_userrole_admin</tag>
 			<tag>_sticky_filter_muscle_guy</tag>
 		</library>
-		<library type="GoBehindBody" id="002" path="002" name="002" thumb="002_thumbnail.swf" display_order="0" money="0" sharing="0" enable="N">
+		<library type="GoBehindBody" id="002" path="002" name="002" thumb="002_thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
 			<tag>_userrole_admin</tag>
 			<tag>_sticky_filter_muscle_guy</tag>
 		</library>
@@ -1424,27 +1412,21 @@
 			</action>
 			<action id="gunwalk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunpoint" name="Aim" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunhit02" name="Get hit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_desperate" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunshoot" name="Shoot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="gunstand" name="Standing alert" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_angry" />
-				<prop id="05gun04_still.swf" theme="spacecitizen" aid="20512"/>
 			</action>
 			<action id="dematerialized01" name="De-materialize" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sci-Fi">
 				<selection type="facial" facial_id="head_neutral" />
@@ -1500,7 +1482,7 @@
 		<library type="GoUpper" id="510" path="510" name="510" thumb="510_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_girl</tag>
 		</library>
-		<library type="GoUpper" id="511" path="511" name="511" thumb="511_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
+		<library type="GoUpper" id="511" path="511" name="511" thumb="511_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_girl</tag>
 		</library>
 		<library type="GoUpper" id="512" path="512" name="512" thumb="512_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
@@ -1677,11 +1659,11 @@
 		</library>
 
 		<!-- Back prop -->
-		<library type="GoBehindBody" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="0" money="0" sharing="0" enable="N">
+		<library type="GoBehindBody" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
 			<tag>_userrole_admin</tag>
 			<tag>_sticky_filter_girl</tag>
 		</library>
-		<library type="GoBehindBody" id="002" path="002" name="002" thumb="002_thumbnail.swf" display_order="0" money="0" sharing="0" enable="N">
+		<library type="GoBehindBody" id="002" path="002" name="002" thumb="002_thumbnail.swf" display_order="0" money="0" sharing="0" enable="Y">
 			<tag>_userrole_admin</tag>
 			<tag>_sticky_filter_girl</tag>
 		</library>
@@ -2503,7 +2485,7 @@
 	</component>
 
 	<!-- Glasses -->
-    <component type="glasses" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="N">
+    <component type="glasses" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
         <state id="side_default" filename="default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_muscle_guy</tag>
