@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="evildead" name="Evil Dead" cc_theme_id="family"> cc_theme_id="cc2">
+
+<background id="ncc_sci07bg.swf" name="Dark World" enable="Y" default="Y" is_premium="N" aid="17342" money="0" sharing="0"/>
+

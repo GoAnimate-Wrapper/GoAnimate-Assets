@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="cal" name="Custom Asset Library">
+  <char id="ugc1" name="NathanTDA - Alien Mothership" default="ugc.1.swf" enable="Y" default="Y" is_premium="N" aid="12429" money="0" sharing="0">
+    <action id="ugc.1.swf" name="Still" loop="Y" totalframe="1" enable="Y" aid="12430"/>
+  </char>
+  <char id="face" name="Talking Picz Face" default="face.swf" enable="Y" default="Y" is_premium="N" aid="12429" money="0" sharing="0">
+    <action id="face.swf" name="Still" loop="Y" totalframe="1" enable="Y" aid="12430"/>
+  </char>
+  <background id="ncc_medium.swf" name="Medium Horizoon" enable="Y" default="N" is_premium="N" aid="10712" money="0" sharing="0"/>
+  <background id="ncc_low.swf" name="Low Horizoon" enable="Y" default="N" is_premium="N" aid="10800" money="0" sharing="0"/>
+</theme>

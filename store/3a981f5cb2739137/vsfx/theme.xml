@@ -1,0 +1,87 @@
+<theme id="vsfx" name="Visual Effects">
+    <prop id="transition01_FI.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Chowder Transition 1 FADE IN" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="transition01_FO.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Chowder Transition 1 FADE Out" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="transition02_FI.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Chowder Transition 2 FADE IN" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="transition02_FO.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Chowder Transition 2 FADE out" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="final_round.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Final Round" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="raining.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Raining" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="hp_bar_fx.swf" holdable="0" placeable="1" wearable="0" facing="left" name="HP Bar FX" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="ko.swf" holdable="0" placeable="1" wearable="0" facing="left" name="KO" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="lose.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Lose" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="perfect.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Perfect" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="raging_demon.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Lose" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="round1.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Round 1" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="round2.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Round 2" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="win.swf" holdable="0" placeable="1" wearable="0" facing="left" name="You Win" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+	<prop id="enterprise_coming.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Enterprise Coming" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+	<prop id="enterprise_leaving.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Enterprise Leaving" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+	<prop id="boxA-Open" holdable="0" placeable="1" wearable="0" facing="left" name="Box Open" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="823760.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Rainbow Lines" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="1211151.swf" holdable="0" placeable="1" wearable="0" facing="left" name="..." enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="328993953.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Bubbles" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+    <prop id="328995073.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Bubbles 2" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+        <prop id="ncc_jp_sakura.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Sakura" enable="Y" is_premium="N" aid="23194" money="0" sharing="0" display_order="0" />
+	<prop id="ncc_sci002fx.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Snow storm" enable="Y" is_premium="N" aid="23186" money="0" sharing="0" display_order="0" />
+	<prop id="ncc_sci003fx.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Screenviewer" enable="Y" is_premium="N" aid="23187" money="0" sharing="0" display_order="0" />
+	<prop id="ncc_sci004fx.swf" x="0" y="0" w="550" h="354" rotate="0" holdable="0" placeable="1" wearable="0" facing="left" name="Red alert" enable="Y" isIn="true" is_premium="N" money="0" sharing="0" aid="9816" display_order="1001" />
+	<prop id="ncc_sci005fx.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Ceiling Crumbling" enable="Y" is_premium="N" aid="23189" money="0" sharing="0" display_order="0" />
+	<prop id="ncc_fx_scifi.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Analyzing specimen" enable="Y" is_premium="N" aid="23185" money="0" sharing="0" display_order="0" />
+	<prop id="spray.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Spray" enable="Y" is_premium="N" aid="10965" money="0" sharing="0" display_order="0" />
+	<prop id="ncc_ninja_fx02.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Hit" enable="Y" is_premium="N" aid="23191" money="0" sharing="0" display_order="0" />
+	<prop id="ncc_ninja_fx04.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Purple petals" enable="Y" is_premium="N" aid="23193" money="0" sharing="0" display_order="0" />
+	<prop id="black_bar.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Black Bar" enable="Y" is_premium="N" aid="3451" money="0" sharing="0" display_order="7" />
+	<prop id="ncc_ninja_fx01.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Focus" enable="Y" is_premium="N" aid="23190" money="0" sharing="0" display_order="10" />
+	<prop id="ncc_ninja_fx03.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Focus" enable="Y" is_premium="N" aid="23192" money="0" sharing="0" display_order="10" />
+	<prop id="curtain_up_fx.swf" holdable="0" placeable="1" wearable="0" facing="left" name="curtain up fx" enable="Y" aid="4002" display_order="15" is_premium="N" money="0" sharing="0" />
+	<prop id="DV_screen.swf" holdable="0" placeable="1" wearable="0" facing="left" name="DV Screen" enable="Y" is_premium="N" aid="3462" money="0" sharing="0" display_order="16" />
+	<prop id="water_flood.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Water Flood" enable="Y" is_premium="N" aid="3461" money="0" sharing="0" display_order="17" />
+	<prop id="bomb.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Bomb" enable="Y" is_premium="N" aid="3460" money="0" sharing="0" display_order="18" />
+	<prop id="ppl01.swf" holdable="0" placeable="1" wearable="0" facing="left" name="People" enable="Y" is_premium="N" aid="3459" money="0" sharing="0" display_order="19" />
+	<prop id="aud-banner.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Banner" enable="Y" is_premium="N" aid="3448" money="0" sharing="0" display_order="20" />
+	<prop id="aud-clap.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Clap" enable="Y" is_premium="N" aid="3449" money="0" sharing="0" display_order="21" />
+	<prop id="aud-01.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Auditorium" enable="Y" is_premium="N" aid="3447" money="0" sharing="0" display_order="22" />
+	<prop id="aud_clap_dark.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Crowd" enable="Y" is_premium="N" aid="10796" money="0" sharing="0" display_order="23" />
+	<prop id="crowd_music.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Crowd cheer" enable="Y" is_premium="N" aid="10900" money="0" sharing="0" display_order="24" />
+	<prop id="flash_light01.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Flash Light" enable="Y" is_premium="N" aid="3456" money="0" sharing="0" display_order="25" />
+	<prop id="green_screen.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Green Screen" enable="Y" is_premium="N" aid="3458" money="0" sharing="0" display_order="25" />
+	<prop id="dim.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Dim" enable="Y" is_premium="N" aid="3457" money="0" sharing="0" display_order="26" />
+	<prop id="gnn_news.swf" holdable="0" placeable="1" wearable="0" facing="left" name="GNN News" enable="Y" is_premium="N" aid="3457" money="0" sharing="0" display_order="26" />
+	<prop id="black_all.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Darkness" enable="Y" is_premium="N" aid="3450" money="0" sharing="0" display_order="27" />
+	<prop id="blue_screen.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Blue Screen" enable="Y" is_premium="N" aid="3452" money="0" sharing="0" display_order="29" />
+	<prop id="spraypaint.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Spray Paint" enable="Y" is_premium="N" aid="3452" money="0" sharing="0" display_order="29" />
+	<prop id="atomic-bomb.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Atomic Bomb" enable="Y" is_premium="N" aid="3446" money="0" sharing="0" display_order="30" />
+	<prop id="hearts.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Heart" enable="Y" is_premium="N" aid="3445" money="0" sharing="0" display_order="31" />
+	<prop id="old_film_effect.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Old Film" enable="Y" is_premium="N" aid="3444" money="0" sharing="0" display_order="32" />
+	<prop id="old_film_effect_04.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Old Film" enable="Y" is_premium="N" aid="9818" money="0" sharing="0" display_order="32" />
+	<prop id="snow02.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Snow" enable="Y" is_premium="N" aid="3443" money="0" sharing="0" display_order="33" />
+	<prop id="snow.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Snow" enable="Y" is_premium="N" aid="3440" money="0" sharing="0" display_order="34" />
+	<prop id="snow01.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Snow" enable="Y" is_premium="N" aid="3442" money="0" sharing="0" display_order="34" />
+	<prop id="hyper_snow.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Hyper Snow" enable="Y" is_premium="N" aid="3441" money="0" sharing="0" display_order="35" />
+	<prop id="lightening.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Lightning" enable="Y" is_premium="N" aid="3439" money="0" sharing="0" display_order="37" />
+	<prop id="fire.swf" holdable="0" placeable="1" wearable="0" facing="left" name="BBQ" enable="Y" is_premium="N" aid="3438" money="0" sharing="0" display_order="38" />
+	<prop id="ncc_fx_06.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Spotlight" enable="Y" is_premium="N" aid="12364" money="0" sharing="0" display_order="41" />
+	<prop id="ncc_fx_07.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Focus" enable="Y" is_premium="N" aid="12365" money="0" sharing="0" display_order="42" />
+	<prop id="ncc_fx_camera.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Camera" enable="Y" is_premium="N" aid="12469" money="0" sharing="0" display_order="43" />
+	<prop id="ncc_fx_camera_shoot2.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Camera - Take Picture" enable="Y" is_premium="N" aid="12470" money="0" sharing="0" display_order="44" />
+	<prop id="ncc_fx_camera2.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Digital Camera" enable="Y" is_premium="N" aid="12471" money="0" sharing="0" display_order="45" />
+	<prop id="ncc_fx_nightvision.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Night vision goggles" enable="Y" is_premium="N" aid="12472" money="0" sharing="0" display_order="46" />
+	<prop id="ncc_fx_sniper.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Target" enable="Y" is_premium="N" aid="12473" money="0" sharing="0" display_order="47" />
+	<prop id="ncc_fx_sniper_fire.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Target - Shoot" enable="Y" is_premium="N" aid="12474" money="0" sharing="0" display_order="48" />
+	<prop id="ncc_fx_telescope.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Binoculars" enable="Y" is_premium="N" aid="12475" money="0" sharing="0" display_order="49" />
+	<prop id="ncc_fight04.swf" holdable="0" placeable="1" wearable="0" facing="left" name="You lose" enable="Y" is_premium="N" aid="12343" money="0" sharing="0" display_order="101" />
+	<prop id="ncc_fight03.swf" holdable="0" placeable="1" wearable="0" facing="left" name="You win" enable="Y" is_premium="N" aid="12342" money="0" sharing="0" display_order="102" />
+	<prop id="ncc_fight02.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Round 2" enable="Y" is_premium="N" aid="12341" money="0" sharing="0" display_order="103" />
+	<prop id="ncc_fight01.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Round 1" enable="Y" is_premium="N" aid="12340" money="0" sharing="0" display_order="104" />
+	<prop id="ncc_transition01.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Black bars in" enable="Y" is_premium="N" aid="12225" money="0" sharing="0" display_order="201" />
+	<prop id="ncc_transition02.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Black bars out" enable="Y" is_premium="N" aid="12226" money="0" sharing="0" display_order="202" />
+	<prop id="ncc_opening01.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Opening" enable="Y" is_premium="N" aid="12332" money="0" sharing="0" display_order="203" />
+	<prop id="ncc_opening01b.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Ending" enable="Y" is_premium="N" aid="12344" money="0" sharing="0" display_order="204" />
+	<prop id="ncc_opening02.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Metal doors - opening" enable="Y" is_premium="N" aid="12333" money="0" sharing="0" display_order="205" />
+	<prop id="ncc_ending02.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Metal doors - game over" enable="Y" is_premium="N" aid="12334" money="0" sharing="0" display_order="206" />
+	<prop id="ncc_ending02b.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Metal doors - closing" enable="Y" is_premium="N" aid="12335" money="0" sharing="0" display_order="207" />
+	<prop id="circle_fade_out.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Circle Fade Out" enable="Y" is_premium="N" aid="3453" money="0" sharing="0" display_order="1002" />
+	<prop id="ncc_transition03.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Transition in - vertical squares" enable="Y" is_premium="N" aid="12336" money="0" sharing="0" display_order="1010" />
+	<prop id="ncc_transition03b.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Transition out - vertical squares" enable="Y" is_premium="N" aid="12337" money="0" sharing="0" display_order="1011" />
+	<prop id="ncc_transition04.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Transition in - horizontal squares" enable="Y" is_premium="N" aid="12338" money="0" sharing="0" display_order="1012" />
+	<prop id="ncc_transition04b.swf" holdable="0" placeable="1" wearable="0" facing="left" name="Transition out - horizontal squares" enable="Y" is_premium="N" aid="12339" money="0" sharing="0" display_order="1013" />
+	<prop id="ncc_02indian_spear.swf" name="Spear" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11450" money="0" sharing="0" handstyle="stick" />
