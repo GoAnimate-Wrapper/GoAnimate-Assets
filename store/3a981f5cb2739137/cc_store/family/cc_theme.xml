@@ -215,11 +215,297 @@
         <selection type="mustache" state_id="nothing"/>
         <selection type="nose" state_id="nothing"/>
     </facial>
-    <facial id="eyebrowonly" name="! Eyebrow only" enable="N">
+    <facial id="eyeonly" name="! Eye only neutral" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="default"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyeonly2" name="! Eye only angry" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyeonly3" name="! Eye only asleep" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="asleep"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyeonly4" name="! Eye only cry" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="cry"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyeonly5" name="! Eye only happy" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="happy"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyeonly6" name="! Eye only sad" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="sad"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyeonly7" name="! Eye only schemeing" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="schemeing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyeonly8" name="! Eye only shock" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyeonly9" name="! Eye only sick" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyeonly10" name="! Eye only thinking" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="thinking"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyeonly11" name="! Eye only yawn" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="yawn"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly" name="! Eyebrow only neutral" enable="N">
         <selection type="beard" state_id="nothing"/>
         <selection type="ear" state_id="nothing"/>
         <selection type="eye" state_id="nothing"/>
         <selection type="eyebrow" state_id="default"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly2" name="! Eyebrow only angry" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly3" name="! Eyebrow only cry" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="cry"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly4" name="! Eyebrow only disgusted" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="disgusted"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly5" name="! Eyebrow only happy" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="happy"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly6" name="! Eyebrow only sad" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly7" name="! Eyebrow only schemeing" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="schemeing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly8" name="! Eyebrow only shock" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly9" name="! Eyebrow only sick" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="sick"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly10" name="! Eyebrow only surprised" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="surprised"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly11" name="! Eyebrow only talk" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="talk"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="nothing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="eyebrowonly12" name="! Eyebrow only yawn" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="yawn"/>
         <selection type="facedecoration" state_id="nothing"/>
         <selection type="faceshape" state_id="nothing"/>
         <selection type="glasses" state_id="nothing"/>
@@ -280,7 +566,7 @@
         <selection type="mustache" state_id="nothing"/>
         <selection type="nose" state_id="nothing"/>
     </facial>
-    <facial id="mouthonly" name="! Mouth only" enable="N">
+    <facial id="mouthonly" name="! Mouth only neutral" enable="N">
         <selection type="beard" state_id="nothing"/>
         <selection type="ear" state_id="nothing"/>
         <selection type="eye" state_id="nothing"/>
@@ -290,6 +576,227 @@
         <selection type="glasses" state_id="nothing"/>
         <selection type="hair" state_id="nothing"/>
         <selection type="mouth" state_id="default"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly2" name="! Mouth only angry" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="angry"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly3" name="! Mouth only chewing" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="chewing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly4" name="! Mouth only cry" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="cry"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly5" name="! Mouth only happy" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly6" name="! Mouth only laugh" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly7" name="! Mouth only sad" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="sad"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly8" name="! Mouth only schemeing" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="schemeing"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly9" name="! Mouth only shock" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="shock"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly10" name="! Mouth only sick" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="sick"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly11" name="! Mouth only surprised" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="surprised"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly12" name="! Mouth only talk_a" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="talk_a"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly13" name="! Mouth only talk_b" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="talk_b"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly14" name="! Mouth only talk_angry" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="talk_angry"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly15" name="! Mouth only talk_happy" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="talk_happy"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly16" name="! Mouth only talk_sad" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="talk_sad"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly17" name="! Mouth only taunt" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="taunt"/>
+        <selection type="mustache" state_id="nothing"/>
+        <selection type="nose" state_id="nothing"/>
+    </facial>
+    <facial id="mouthonly18" name="! Mouth only yawn" enable="N">
+        <selection type="beard" state_id="nothing"/>
+        <selection type="ear" state_id="nothing"/>
+        <selection type="eye" state_id="nothing"/>
+        <selection type="eyebrow" state_id="nothing"/>
+        <selection type="facedecoration" state_id="nothing"/>
+        <selection type="faceshape" state_id="nothing"/>
+        <selection type="glasses" state_id="nothing"/>
+        <selection type="hair" state_id="nothing"/>
+        <selection type="mouth" state_id="yawn"/>
         <selection type="mustache" state_id="nothing"/>
         <selection type="nose" state_id="nothing"/>
     </facial>
@@ -532,6 +1039,19 @@
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="shock"/>
         <selection type="eyebrow" state_id="shock"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="shock"/>
+        <selection type="mustache" state_id="default"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_shocked2" name="Angrily shocked" enable="Y">
+        <selection type="beard" state_id="default"/>
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="shock"/>
+        <selection type="eyebrow" state_id="angry"/>
         <selection type="facedecoration" state_id="default"/>
         <selection type="faceshape" state_id="default"/>
         <selection type="glasses" state_id="default"/>
@@ -3707,14 +4227,140 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="eyeonly" name="Eye only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="eyeonly" name="Eye only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="eyeonly"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="eyebrowonly" name="Eyebrow only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="eyeonly2" name="Eye only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly3" name="Eye only asleep" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly4" name="Eye only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly5" name="Eye only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly6" name="Eye only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly7" name="Eye only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly8" name="Eye only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly9" name="Eye only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly10" name="Eye only thinking" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly11" name="Eye only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly" name="Eyebrow only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="eyebrowonly"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly2" name="Eyebrow only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly3" name="Eyebrow only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly4" name="Eyebrow only disgusted" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly5" name="Eyebrow only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly6" name="Eyebrow only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly7" name="Eyebrow only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly8" name="Eyebrow only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly9" name="Eyebrow only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly10" name="Eyebrow only surprised" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly11" name="Eyebrow only talk" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly12" name="Eyebrow only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly12"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
@@ -3743,8 +4389,110 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="mouthonly" name="Mouth only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="mouthonly" name="Mouth only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="mouthonly"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly2" name="Mouth only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly3" name="Mouth only chewing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly4" name="Mouth only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly5" name="Mouth only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly6" name="Mouth only laugh" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly7" name="Mouth only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly8" name="Mouth only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly9" name="Mouth only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly10" name="Mouth only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly11" name="Mouth only surprised" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly12" name="Mouth only talk_a" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly12"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly13" name="Mouth only talk_b" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly13"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly14" name="Mouth only talk_angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly14"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly15" name="Mouth only talk_happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly15"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly16" name="Mouth only talk_sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly16"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly17" name="Mouth only taunt" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly17"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly18" name="Mouth only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly18"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
@@ -8951,14 +9699,140 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="eyeonly" name="Eye only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="eyeonly" name="Eye only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="eyeonly"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="eyebrowonly" name="Eyebrow only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="eyeonly2" name="Eye only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly3" name="Eye only asleep" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly4" name="Eye only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly5" name="Eye only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly6" name="Eye only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly7" name="Eye only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly8" name="Eye only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly9" name="Eye only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly10" name="Eye only thinking" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly11" name="Eye only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly" name="Eyebrow only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="eyebrowonly"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly2" name="Eyebrow only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly3" name="Eyebrow only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly4" name="Eyebrow only disgusted" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly5" name="Eyebrow only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly6" name="Eyebrow only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly7" name="Eyebrow only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly8" name="Eyebrow only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly9" name="Eyebrow only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly10" name="Eyebrow only surprised" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly11" name="Eyebrow only talk" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly12" name="Eyebrow only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly12"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
@@ -8987,8 +9861,110 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="mouthonly" name="Mouth only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="mouthonly" name="Mouth only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="mouthonly"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly2" name="Mouth only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly3" name="Mouth only chewing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly4" name="Mouth only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly5" name="Mouth only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly6" name="Mouth only laugh" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly7" name="Mouth only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly8" name="Mouth only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly9" name="Mouth only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly10" name="Mouth only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly11" name="Mouth only surprised" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly12" name="Mouth only talk_a" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly12"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly13" name="Mouth only talk_b" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly13"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly14" name="Mouth only talk_angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly14"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly15" name="Mouth only talk_happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly15"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly16" name="Mouth only talk_sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly16"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly17" name="Mouth only taunt" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly17"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly18" name="Mouth only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly18"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
@@ -12251,14 +13227,140 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="eyeonly" name="Eye only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="eyeonly" name="Eye only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="eyeonly"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="eyebrowonly" name="Eyebrow only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="eyeonly2" name="Eye only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly3" name="Eye only asleep" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly4" name="Eye only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly5" name="Eye only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly6" name="Eye only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly7" name="Eye only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly8" name="Eye only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly9" name="Eye only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly10" name="Eye only thinking" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly11" name="Eye only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly" name="Eyebrow only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="eyebrowonly"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly2" name="Eyebrow only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly3" name="Eyebrow only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly4" name="Eyebrow only disgusted" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly5" name="Eyebrow only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly6" name="Eyebrow only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly7" name="Eyebrow only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly8" name="Eyebrow only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly9" name="Eyebrow only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly10" name="Eyebrow only surprised" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly11" name="Eyebrow only talk" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly12" name="Eyebrow only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly12"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
@@ -12287,8 +13389,110 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="mouthonly" name="Mouth only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="mouthonly" name="Mouth only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="mouthonly"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly2" name="Mouth only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly3" name="Mouth only chewing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly4" name="Mouth only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly5" name="Mouth only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly6" name="Mouth only laugh" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly7" name="Mouth only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly8" name="Mouth only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly9" name="Mouth only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly10" name="Mouth only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly11" name="Mouth only surprised" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly12" name="Mouth only talk_a" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly12"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly13" name="Mouth only talk_b" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly13"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly14" name="Mouth only talk_angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly14"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly15" name="Mouth only talk_happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly15"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly16" name="Mouth only talk_sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly16"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly17" name="Mouth only taunt" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly17"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly18" name="Mouth only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly18"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
@@ -14959,14 +16163,140 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="eyeonly" name="Eye only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="eyeonly" name="Eye only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="eyeonly"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="eyebrowonly" name="Eyebrow only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="eyeonly2" name="Eye only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly3" name="Eye only asleep" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly4" name="Eye only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly5" name="Eye only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly6" name="Eye only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly7" name="Eye only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly8" name="Eye only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly9" name="Eye only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly10" name="Eye only thinking" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyeonly11" name="Eye only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyeonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly" name="Eyebrow only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="eyebrowonly"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly2" name="Eyebrow only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly3" name="Eyebrow only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly4" name="Eyebrow only disgusted" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly5" name="Eyebrow only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly6" name="Eyebrow only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly7" name="Eyebrow only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly8" name="Eyebrow only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly9" name="Eyebrow only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly10" name="Eyebrow only surprised" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly11" name="Eyebrow only talk" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="eyebrowonly12" name="Eyebrow only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="eyebrowonly12"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
@@ -14995,8 +16325,110 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
         </action>
-        <action id="mouthonly" name="Mouth only" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+        <action id="mouthonly" name="Mouth only neutral" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
             <selection type="facial" facial_id="mouthonly"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly2" name="Mouth only angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly2"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly3" name="Mouth only chewing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly3"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly4" name="Mouth only cry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly4"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly5" name="Mouth only happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly5"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly6" name="Mouth only laugh" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly6"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly7" name="Mouth only sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly7"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly8" name="Mouth only schemeing" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly8"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly9" name="Mouth only shock" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly9"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly10" name="Mouth only sick" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly10"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly11" name="Mouth only surprised" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly11"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly12" name="Mouth only talk_a" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly12"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly13" name="Mouth only talk_b" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly13"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly14" name="Mouth only talk_angry" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly14"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly15" name="Mouth only talk_happy" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly15"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly16" name="Mouth only talk_sad" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly16"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly17" name="Mouth only taunt" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly17"/>
+            <selection type="lower_body" state_id="nothing"/>
+            <selection type="skeleton" state_id="stand"/>
+            <selection type="upper_body" state_id="nothing"/>
+        </action>
+        <action id="mouthonly18" name="Mouth only yawn" loop="Y" totalframe="1" enable="Y" category="Z Accessory_management" is_motion="N">
+            <selection type="facial" facial_id="mouthonly18"/>
             <selection type="lower_body" state_id="nothing"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="nothing"/>
@@ -20614,9 +22046,6 @@
         <state id="default" filename="default.swf"/>
         <state id="nothing" filename="nothing.swf"/>
     </component>
-    <component type="hair" id="6051" path="6051" name="6051" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
-        <state id="default" filename="default.swf"/>
-    </component>	
     <component type="mustache" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
         <state id="nothing" filename="nothing.swf"/>
