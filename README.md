@@ -15,7 +15,8 @@ In [Wrapper](https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper), Set the co
 ```
 
 # Credits
-
+# Original Assets
+Vyond
 # Custom Clothing & Other Custom Assets 
 Kenny Animate - Original idea
 Waleed Tariq2001
