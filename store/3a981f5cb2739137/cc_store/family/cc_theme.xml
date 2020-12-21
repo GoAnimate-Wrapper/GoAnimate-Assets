@@ -6415,7 +6415,7 @@
         </component>
     </bodyshape>
     <bodyshape id="eve" name="Eve" default_action="stand2" default_motion="walk" action_thumb="stand2" facial_thumb="head_neutralb" thumb_path="thumbnail.swf" enable="Y" tag="female">
-              </default_char>
+        </default_char>
         <action id="stand" name="Stand" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
